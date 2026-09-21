@@ -1,0 +1,356 @@
+{
+  "artifact": "supermix_omni_collective_v46_frontier_20260411_015409.zip",
+  "family": "omni_collective_v48",
+  "smoke_train": false,
+  "parameter_count": 131298669,
+  "dataset_summary": {
+    "stage1_rows": 54,
+    "stage2_rows": 57,
+    "pre_dedupe_rows": 57,
+    "source_counts": {
+      "benchmark_bridge_v46::arc-challenge": 1,
+      "benchmark_bridge_v46::boolq": 1,
+      "benchmark_bridge_v46::bridge_rationale": 1,
+      "benchmark_bridge_v46::disagreement_resolution": 1,
+      "benchmark_bridge_v46::gsm8k": 1,
+      "benchmark_bridge_v46::hellaswag": 1,
+      "benchmark_bridge_v46::mmlu": 1,
+      "benchmark_bridge_v46::piqa": 1,
+      "benchmark_bridge_v46::route_selection": 1,
+      "diversity_mix_v46::persona_style": 24,
+      "teacher_roles_v46::coder_next": 1,
+      "teacher_roles_v46::gemma4_grounded": 1,
+      "teacher_roles_v46::qwen35_long_context": 1,
+      "teacher_roles_v46::qwen_omni": 1,
+      "teacher_roles_v46::teacher_choice": 4,
+      "teacher_verifier_v46::benchmark_repair": 1,
+      "teacher_verifier_v46::budget_repair": 1,
+      "teacher_verifier_v46::coding_repair": 1,
+      "teacher_verifier_v46::multimodal_repair": 1,
+      "teacher_verifier_v46::repair_rule": 4,
+      "turboquant_budget_v46::compressed_log_summary": 1,
+      "turboquant_budget_v46::evidence_rule": 4,
+      "turboquant_budget_v46::math_budget": 1,
+      "turboquant_budget_v46::model_compare_budget": 1,
+      "turboquant_budget_v46::training_translation": 1
+    },
+    "base_stage1_rows": 0,
+    "base_stage2_rows": 0,
+    "v46_added_rows": 57,
+    "v46_prep_root": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep",
+    "v46_row_groups": {
+      "benchmark_bridge": {
+        "row_count": 9,
+        "source_counts": {
+          "benchmark_bridge_v46::arc-challenge": 1,
+          "benchmark_bridge_v46::boolq": 1,
+          "benchmark_bridge_v46::bridge_rationale": 1,
+          "benchmark_bridge_v46::disagreement_resolution": 1,
+          "benchmark_bridge_v46::gsm8k": 1,
+          "benchmark_bridge_v46::hellaswag": 1,
+          "benchmark_bridge_v46::mmlu": 1,
+          "benchmark_bridge_v46::piqa": 1,
+          "benchmark_bridge_v46::route_selection": 1
+        },
+        "domain_counts": {
+          "knowledge": 8,
+          "model_selection": 1
+        },
+        "intent_counts": {
+          "comparison": 6,
+          "general": 3
+        }
+      },
+      "teacher_roles": {
+        "row_count": 8,
+        "source_counts": {
+          "teacher_roles_v46::coder_next": 1,
+          "teacher_roles_v46::gemma4_grounded": 1,
+          "teacher_roles_v46::qwen35_long_context": 1,
+          "teacher_roles_v46::qwen_omni": 1,
+          "teacher_roles_v46::teacher_choice": 4
+        },
+        "domain_counts": {
+          "model_selection": 8
+        },
+        "intent_counts": {
+          "comparison": 4,
+          "model_selection": 4
+        }
+      },
+      "verifier_repair": {
+        "row_count": 8,
+        "source_counts": {
+          "teacher_verifier_v46::benchmark_repair": 1,
+          "teacher_verifier_v46::budget_repair": 1,
+          "teacher_verifier_v46::coding_repair": 1,
+          "teacher_verifier_v46::multimodal_repair": 1,
+          "teacher_verifier_v46::repair_rule": 4
+        },
+        "domain_counts": {
+          "general": 4,
+          "knowledge": 4
+        },
+        "intent_counts": {
+          "comparison": 8
+        }
+      },
+      "turboquant_budget": {
+        "row_count": 8,
+        "source_counts": {
+          "turboquant_budget_v46::compressed_log_summary": 1,
+          "turboquant_budget_v46::evidence_rule": 4,
+          "turboquant_budget_v46::math_budget": 1,
+          "turboquant_budget_v46::model_compare_budget": 1,
+          "turboquant_budget_v46::training_translation": 1
+        },
+        "domain_counts": {
+          "knowledge": 8
+        },
+        "intent_counts": {
+          "comparison": 4,
+          "general": 4
+        }
+      },
+      "diversity_mix": {
+        "row_count": 24,
+        "source_counts": {
+          "diversity_mix_v46::persona_style": 24
+        },
+        "domain_counts": {
+          "coding": 3,
+          "general": 3,
+          "knowledge": 9,
+          "language": 3,
+          "planning": 3,
+          "spatial_3d": 3
+        },
+        "intent_counts": {
+          "general": 24
+        }
+      }
+    },
+    "base_summary": {
+      "status": "v46_base_simulated",
+      "v42_warmstart": true
+    },
+    "prep_payload": {
+      "family": "omni_collective_v46",
+      "prepared_from": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\supermix_omni_collective_v42_smoke_20260410_173006\\omni_collective_v42_smoke_summary.json",
+      "output_root": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep",
+      "v46_base_output_root": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_base",
+      "row_groups": {
+        "benchmark_bridge": {
+          "row_count": 9,
+          "source_counts": {
+            "benchmark_bridge_v46::arc-challenge": 1,
+            "benchmark_bridge_v46::boolq": 1,
+            "benchmark_bridge_v46::bridge_rationale": 1,
+            "benchmark_bridge_v46::disagreement_resolution": 1,
+            "benchmark_bridge_v46::gsm8k": 1,
+            "benchmark_bridge_v46::hellaswag": 1,
+            "benchmark_bridge_v46::mmlu": 1,
+            "benchmark_bridge_v46::piqa": 1,
+            "benchmark_bridge_v46::route_selection": 1
+          },
+          "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_benchmark_bridge_rows.jsonl"
+        },
+        "teacher_roles": {
+          "row_count": 8,
+          "source_counts": {
+            "teacher_roles_v46::coder_next": 1,
+            "teacher_roles_v46::gemma4_grounded": 1,
+            "teacher_roles_v46::qwen35_long_context": 1,
+            "teacher_roles_v46::qwen_omni": 1,
+            "teacher_roles_v46::teacher_choice": 4
+          },
+          "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_teacher_role_rows.jsonl"
+        },
+        "verifier_repair": {
+          "row_count": 8,
+          "source_counts": {
+            "teacher_verifier_v46::benchmark_repair": 1,
+            "teacher_verifier_v46::budget_repair": 1,
+            "teacher_verifier_v46::coding_repair": 1,
+            "teacher_verifier_v46::multimodal_repair": 1,
+            "teacher_verifier_v46::repair_rule": 4
+          },
+          "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_verifier_repair_rows.jsonl"
+        },
+        "turboquant_budget": {
+          "row_count": 8,
+          "source_counts": {
+            "turboquant_budget_v46::compressed_log_summary": 1,
+            "turboquant_budget_v46::evidence_rule": 4,
+            "turboquant_budget_v46::math_budget": 1,
+            "turboquant_budget_v46::model_compare_budget": 1,
+            "turboquant_budget_v46::training_translation": 1
+          },
+          "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_turboquant_budget_rows.jsonl"
+        },
+        "diversity_mix": {
+          "row_count": 24,
+          "source_counts": {
+            "diversity_mix_v46::persona_style": 24
+          },
+          "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_diversity_rows.jsonl"
+        }
+      },
+      "promotion_eval_pack_path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\v46_promotion_eval_pack.json",
+      "total_new_rows": 57,
+      "blueprint_path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\omni_collective_v46_blueprint.json",
+      "summary_path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix_27\\output\\omni_collective_v46_prep\\omni_collective_v46_prep_summary.json"
+    }
+  },
+  "warm_start": {
+    "loaded": true,
+    "source_weights": "omni_collective_v42_smoke.pth",
+    "exact_match_keys": 318,
+    "partial_resize_keys": 3,
+    "missing_key_count": 0,
+    "unexpected_key_count": 0
+  },
+  "stage1": {
+    "history": [
+      {
+        "epoch": 1.0,
+        "train_loss": 12.66625103083524,
+        "val_intent_accuracy": 0.18181818181818182,
+        "val_response_accuracy": 0.09090909090909091,
+        "val_vision_accuracy": 0.0,
+        "val_domain_accuracy": 0.09090909090909091,
+        "score": 0.09545454545454546,
+        "lr": 1e-05,
+        "optimizer_steps": 22.0,
+        "avg_balance_loss": 0.13905335624109616,
+        "ema_enabled": 1.0
+      }
+    ],
+    "best_score": 0.09545454545454546,
+    "val_metrics": {
+      "intent_accuracy": 0.18181818181818182,
+      "response_accuracy": 0.09090909090909091,
+      "vision_accuracy": 0.0,
+      "domain_accuracy": 0.09090909090909091
+    },
+    "train_rows": 44,
+    "val_rows": 11,
+    "runtime": {
+      "requested_device": "auto",
+      "resolved_device": "cpu",
+      "device_type": "cpu",
+      "amp_mode": "off",
+      "amp_enabled": false,
+      "amp_dtype_name": "none",
+      "scaler_enabled": false,
+      "compile_requested": false,
+      "compile_enabled": false,
+      "compile_mode": "reduce-overhead",
+      "compile_error": null,
+      "grad_accum_steps": 1,
+      "ema_decay": 0.999,
+      "warmup_steps": 0,
+      "warmup_ratio": 0.05,
+      "min_lr_scale": 0.05,
+      "git_commit": "e47884905222a269d474c6848f11172cf08c1058",
+      "effective_batch_size": 2
+    },
+    "effective_batch_size": 2
+  },
+  "stage2": {
+    "history": [
+      {
+        "epoch": 1.0,
+        "train_loss": 10.543906875278639,
+        "val_intent_accuracy": 0.2727272727272727,
+        "val_response_accuracy": 0.09090909090909091,
+        "val_vision_accuracy": 0.0,
+        "val_domain_accuracy": 0.36363636363636365,
+        "score": 0.1681818181818182,
+        "lr": 4.5e-06,
+        "optimizer_steps": 12.0,
+        "avg_balance_loss": 0.13240869715809822,
+        "ema_enabled": 1.0
+      }
+    ],
+    "best_score": 0.1681818181818182,
+    "val_metrics": {
+      "intent_accuracy": 0.2727272727272727,
+      "response_accuracy": 0.09090909090909091,
+      "vision_accuracy": 0.0,
+      "domain_accuracy": 0.36363636363636365
+    },
+    "train_rows": 46,
+    "val_rows": 11,
+    "runtime": {
+      "requested_device": "auto",
+      "resolved_device": "cpu",
+      "device_type": "cpu",
+      "amp_mode": "off",
+      "amp_enabled": false,
+      "amp_dtype_name": "none",
+      "scaler_enabled": false,
+      "compile_requested": false,
+      "compile_enabled": false,
+      "compile_mode": "reduce-overhead",
+      "compile_error": null,
+      "grad_accum_steps": 1,
+      "ema_decay": 0.999,
+      "warmup_steps": 0,
+      "warmup_ratio": 0.05,
+      "min_lr_scale": 0.05,
+      "git_commit": "e47884905222a269d474c6848f11172cf08c1058",
+      "effective_batch_size": 2
+    },
+    "effective_batch_size": 4
+  },
+  "training_runtime": {
+    "requested_device": "auto",
+    "resolved_device": "cpu",
+    "device_type": "cpu",
+    "amp_mode": "off",
+    "amp_enabled": false,
+    "amp_dtype_name": "none",
+    "scaler_enabled": false,
+    "compile_requested": false,
+    "compile_enabled": false,
+    "compile_mode": "reduce-overhead",
+    "compile_error": null,
+    "grad_accum_steps": 1,
+    "ema_decay": 0.999,
+    "warmup_steps": 0,
+    "warmup_ratio": 0.05,
+    "min_lr_scale": 0.05,
+    "git_commit": "e47884905222a269d474c6848f11172cf08c1058",
+    "effective_batch_size": 2
+  },
+  "sample_outputs": [
+    {
+      "prompt": "Which local model should handle a benchmark-style reasoning prompt if exact score matters most?",
+      "answer": "Best grounded answer from my local training: Name the tradeoff, then make the recommendation explicit. Tailor the wording to a teacher while staying concise."
+    },
+    {
+      "prompt": "Translate TurboQuant into a training implication for v46 in one sentence.",
+      "answer": "Name the tradeoff, then make the recommendation explicit. Tailor the wording to a teacher while staying concise."
+    },
+    {
+      "prompt": "A failing test appeared after a refactor. What should happen next?",
+      "answer": "Name the tradeoff, then make the recommendation explicit. Tailor the wording to a teacher while staying concise."
+    },
+    {
+      "prompt": "Which teacher is best for grounded multimodal explanation slices?",
+      "answer": "Best grounded answer from my local training: Name the tradeoff, then make the recommendation explicit. Tailor the wording to a teacher while staying concise."
+    },
+    {
+      "prompt": "Summarize a huge build log into the one failing step and the next action.",
+      "answer": "Name the tradeoff, then make the recommendation explicit. Tailor the wording to a teacher while staying concise."
+    }
+  ],
+  "notes": [
+    "v46 is designed to recover benchmark strength from v40 while keeping v46's route-first and communication improvements.",
+    "This scaffold is the first v46 smoke/frontier training entry point on top of the latest v46 artifact.",
+    "Smoke packaging skips post-train sample inference so quick validation runs stay manageable on CPU-only environments."
+  ],
+  "weights_name": "omni_collective_v48_frontier.pth",
+  "release_stage": "v48_frontier_bundle"
+}
