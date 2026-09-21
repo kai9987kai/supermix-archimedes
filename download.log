@@ -1,0 +1,18 @@
+downloading Kai9987kai/supermix-v93 -> models/supermix-v93
+Fetching 44 files:   0%|          | 0/44 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 44 files:   2%|2         | 1/44 [00:00<00:17,  2.41it/s]Fetching 44 files:   7%|6         | 3/44 [00:01<00:14,  2.79it/s]Fetching 44 files:  52%|#####2    | 23/44 [00:01<00:00, 23.13it/s]Fetching 44 files:  61%|######1   | 27/44 [00:01<00:00, 21.80it/s]Fetching 44 files:  70%|#######   | 31/44 [00:01<00:00, 23.78it/s]Fetching 44 files:  80%|#######9  | 35/44 [00:01<00:00, 26.00it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 44 files:  89%|########8 | 39/44 [00:02<00:00, 22.78it/s]Fetching 44 files:  95%|#########5| 42/44 [00:02<00:00, 20.89it/s]Fetching 44 files: 100%|##########| 44/44 [00:07<00:00,  5.84it/s]
+  done: C:\Users\kai99\Desktop\supermix-archimedes\models\supermix-v93
+downloading Kai9987kai/omni-collective-v48-frontier -> models/omni-collective-v48-frontier
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 5 files:  20%|##        | 1/5 [00:00<00:01,  2.68it/s]Fetching 5 files:  60%|######    | 3/5 [00:01<00:00,  2.23it/s]Fetching 5 files: 100%|##########| 5/5 [00:01<00:00,  3.79it/s]
+  done: C:\Users\kai99\Desktop\supermix-archimedes\models\omni-collective-v48-frontier
+downloading Kai9987kai/supermix-v87 -> models/supermix-v87
+Fetching 29 files:   0%|          | 0/29 [00:00<?, ?it/s]Fetching 29 files:   3%|3         | 1/29 [00:00<00:13,  2.08it/s]Fetching 29 files:  31%|###1      | 9/29 [00:00<00:01, 16.09it/s]Fetching 29 files:  52%|#####1    | 15/29 [00:00<00:00, 23.16it/s]Fetching 29 files:  66%|######5   | 19/29 [00:01<00:00, 21.08it/s]Fetching 29 files:  79%|#######9  | 23/29 [00:01<00:00, 24.22it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 29 files:  90%|########9 | 26/29 [00:01<00:00, 20.92it/s]Fetching 29 files: 100%|##########| 29/29 [00:03<00:00,  4.11it/s]Fetching 29 files: 100%|##########| 29/29 [00:03<00:00,  7.78it/s]
+  done: C:\Users\kai99\Desktop\supermix-archimedes\models\supermix-v87
+downloading Kai9987kai/supermix-v38-native-image-xlite-fp16 -> models/supermix-v38-native-image-xlite-fp16
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Fetching 11 files:   9%|9         | 1/11 [00:00<00:04,  2.24it/s]Fetching 11 files:  27%|##7       | 3/11 [00:01<00:03,  2.53it/s]Fetching 11 files: 100%|##########| 11/11 [00:01<00:00,  9.14it/s]
+  done: C:\Users\kai99\Desktop\supermix-archimedes\models\supermix-v38-native-image-xlite-fp16
+ALL DONE

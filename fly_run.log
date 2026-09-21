@@ -1,0 +1,46 @@
+[fly-lab] seed=2077 coupling=0.8 budget=10min out=C:\Users\kai99\Desktop\supermix-archimedes\fly_run
+[fly-lab] 22 brains: forager, navigator, sentinel, vault, pioneer, optic, executive, metabolic, lal, vnc_cpg, ammc, pb, eb, no, aotu, smp, plume, climate, threat_forecast, route_memory, uncertainty, social
+[fly-lab] commissural matrix 22x22x4 = 1936 slots
+[fly-lab] pre-trained 15 epochs
+[fly-lab] 2.5% step=4982 diamonds=98 hazards=57 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.217 weather=storm regimes=CONSOLIDATE/FORAGE/SCOUT exp=2490
+[fly-lab] 5.0% step=10303 diamonds=243 hazards=90 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.298 weather=rain regimes=EVADE/EVADE/EVADE exp=5151
+[fly-lab] 7.5% step=15513 diamonds=274 hazards=116 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=4.966 weather=temperate regimes=FORAGE/FORAGE/EVADE exp=7755
+[fly-lab] 10.0% step=20547 diamonds=292 hazards=116 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.156 weather=storm regimes=CONSOLIDATE/FORAGE/SCOUT exp=10272
+[fly-lab] 12.5% step=25676 diamonds=292 hazards=116 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.683 weather=drought regimes=FORAGE/FORAGE/SCOUT exp=12837
+[fly-lab] 15.0% step=30945 diamonds=292 hazards=116 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.680 weather=temperate regimes=FORAGE/FORAGE/SCOUT exp=15471
+[fly-lab] 17.5% step=36212 diamonds=329 hazards=172 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.272 weather=calm regimes=FORAGE/FORAGE/SCOUT exp=18105
+[fly-lab] 20.0% step=43913 diamonds=346 hazards=215 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.285 weather=calm regimes=CONSOLIDATE/FORAGE/SCOUT exp=21954
+[fly-lab] 22.5% step=53505 diamonds=362 hazards=347 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.684 weather=temperate regimes=FORAGE/PIONEER/SCOUT exp=26751
+[fly-lab] 25.0% step=62932 diamonds=441 hazards=433 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.176 weather=rain regimes=CONSOLIDATE/FORAGE/EVADE exp=31464
+[fly-lab] 27.5% step=72486 diamonds=464 hazards=689 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=4.964 weather=storm regimes=CONSOLIDATE/EVADE/EVADE exp=36243
+[fly-lab] 30.0% step=82024 diamonds=479 hazards=1014 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.292 weather=calm regimes=CONSOLIDATE/PIONEER/SCOUT exp=41010
+[fly-lab] 32.5% step=91481 diamonds=479 hazards=1160 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.194 weather=temperate regimes=CONSOLIDATE/PIONEER/SCOUT exp=45738
+[fly-lab] 35.0% step=101179 diamonds=479 hazards=1328 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.187 weather=drought regimes=FORAGE/FORAGE/SCOUT exp=50589
+[fly-lab] 37.5% step=111049 diamonds=483 hazards=1406 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.186 weather=calm regimes=FORAGE/FORAGE/SCOUT exp=55524
+[fly-lab] 40.0% step=120638 diamonds=484 hazards=1610 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=-1.737 weather=temperate regimes=EVADE/EVADE/EVADE exp=60318
+[fly-lab] 42.5% step=130303 diamonds=484 hazards=1705 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.285 weather=rain regimes=FORAGE/FORAGE/SCOUT exp=65151
+[fly-lab] 45.0% step=139984 diamonds=492 hazards=1852 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.777 weather=storm regimes=FORAGE/FORAGE/MAP_BEACON exp=69990
+[fly-lab] 47.5% step=149590 diamonds=651 hazards=2071 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=4.916 weather=calm regimes=FORAGE/FORAGE/SCOUT exp=74793
+[fly-lab] 50.0% step=159257 diamonds=706 hazards=2152 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.266 weather=rain regimes=FORAGE/PIONEER/MAP_BEACON exp=79626
+[fly-lab] 52.5% step=168684 diamonds=744 hazards=2249 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.225 weather=drought regimes=EVADE/FORAGE/SCOUT exp=84342
+[fly-lab] 55.0% step=178438 diamonds=756 hazards=2364 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.297 weather=storm regimes=CONSOLIDATE/PIONEER/SCOUT exp=89217
+[fly-lab] 57.5% step=188059 diamonds=790 hazards=2500 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.590 weather=temperate regimes=FORAGE/PIONEER/MAP_BEACON exp=94029
+[fly-lab] 60.0% step=197321 diamonds=810 hazards=2649 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.179 weather=rain regimes=FORAGE/FORAGE/SCOUT exp=98658
+[fly-lab] 62.5% step=202422 diamonds=810 hazards=2649 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.276 weather=calm regimes=CONSOLIDATE/FORAGE/SCOUT exp=101211
+[fly-lab] 65.0% step=207483 diamonds=810 hazards=2651 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.684 weather=storm regimes=EVADE/EVADE/EVADE exp=103740
+[fly-lab] 67.5% step=212504 diamonds=811 hazards=2688 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.691 weather=rain regimes=FORAGE/FORAGE/SCOUT exp=106251
+[fly-lab] 70.0% step=217839 diamonds=811 hazards=2713 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.609 weather=temperate regimes=FORAGE/PIONEER/SCOUT exp=108918
+[fly-lab] 72.5% step=223177 diamonds=811 hazards=2713 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.292 weather=storm regimes=FORAGE/FORAGE/SCOUT exp=111588
+[fly-lab] 75.0% step=228433 diamonds=811 hazards=2713 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.297 weather=drought regimes=FORAGE/PIONEER/SCOUT exp=114216
+[fly-lab] 77.5% step=233642 diamonds=828 hazards=2791 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=4.805 weather=temperate regimes=FORAGE/EVADE/SCOUT exp=116820
+[fly-lab] 80.0% step=239142 diamonds=844 hazards=2811 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.257 weather=calm regimes=FORAGE/PIONEER/EVADE exp=119571
+[fly-lab] 82.7% step=243888 diamonds=856 hazards=2836 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.171 weather=drought regimes=FORAGE/FORAGE/SCOUT exp=121944
+[fly-lab] 85.2% step=253088 diamonds=882 hazards=2992 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.214 weather=storm regimes=FORAGE/FORAGE/EVADE exp=126543
+[fly-lab] 87.7% step=262861 diamonds=922 hazards=3178 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.241 weather=temperate regimes=FORAGE/PIONEER/SCOUT exp=131430
+[fly-lab] 90.2% step=272304 diamonds=930 hazards=3233 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.210 weather=rain regimes=FORAGE/FORAGE/SCOUT exp=136152
+[fly-lab] 92.7% step=281917 diamonds=954 hazards=3309 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.586 weather=drought regimes=FORAGE/FORAGE/SCOUT exp=140958
+[fly-lab] 95.2% step=291406 diamonds=954 hazards=3419 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.601 weather=calm regimes=FORAGE/FORAGE/SCOUT exp=145701
+[fly-lab] 97.7% step=300757 diamonds=955 hazards=3527 born=528 mitosis=528 apoptosis=0 engrams=64 rpe=0.173 weather=temperate regimes=FORAGE/FORAGE/SCOUT exp=150378
+[fly-lab] DONE steps=309227 wall=600.0s experience=154611 rows
+[fly-lab] final: diamonds=955 hazards=3661 born=528 mitosis=528 apoptosis=0 engrams=64
+[fly-lab] per-agent diamonds: {"agent1":338,"agent2":297,"agent3":320} respawns=14787
