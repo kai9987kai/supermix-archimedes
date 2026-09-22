@@ -1,0 +1,333 @@
+{
+  "schema": "supermix-v93-train-mix-v1",
+  "source": "datasets/v93/v93_combined.jsonl",
+  "output": "datasets/v93/v93_train_mix.jsonl",
+  "factor": 3,
+  "rows_in": 1546091,
+  "rows_out": 2326057,
+  "new_family_share_of_rows": 0.503,
+  "planned": {
+    "steps": 8000,
+    "batch_size": 16,
+    "row_draws": 128000
+  },
+  "reference": "v89 from scratch: 24,250 steps x 16 = 388,000 draws over 1,156,108 rows, about 13,400 draws per 40,000-row task",
+  "exposure": {
+    "acceleration": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "addition": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "algebra_one_step": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "arithmetic_series": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "average": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "cns_pair_synapses": {
+      "rows": 30000,
+      "weighted_rows": 90000,
+      "share": 0.03869,
+      "expected_draws": 4953,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "cns_side_count": {
+      "rows": 30000,
+      "weighted_rows": 90000,
+      "share": 0.03869,
+      "expected_draws": 4953,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "cns_type_count": {
+      "rows": 30000,
+      "weighted_rows": 90000,
+      "share": 0.03869,
+      "expected_draws": 4953,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "code_conditional": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_divmod": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_index": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_list_count": {
+      "rows": 20000,
+      "weighted_rows": 60000,
+      "share": 0.02579,
+      "expected_draws": 3302,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "code_list_extreme": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_list_sum": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_loop_add": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_loop_subtract": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_neg_index": {
+      "rows": 20000,
+      "weighted_rows": 60000,
+      "share": 0.02579,
+      "expected_draws": 3302,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "code_nested_loop": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "code_range_sum": {
+      "rows": 20000,
+      "weighted_rows": 60000,
+      "share": 0.02579,
+      "expected_draws": 3302,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "code_while_accumulate": {
+      "rows": 20000,
+      "weighted_rows": 20000,
+      "share": 0.0086,
+      "expected_draws": 1101,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "combination": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "division": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "electrical_power": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "final_velocity": {
+      "rows": 40000,
+      "weighted_rows": 120000,
+      "share": 0.05159,
+      "expected_draws": 6603,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "force": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "impulse": {
+      "rows": 40000,
+      "weighted_rows": 120000,
+      "share": 0.05159,
+      "expected_draws": 6603,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "kinetic_energy": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "lang:connectome": {
+      "rows": 30000,
+      "weighted_rows": 90000,
+      "share": 0.03869,
+      "expected_draws": 4953,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "lang:dialogue": {
+      "rows": 96108,
+      "weighted_rows": 96108,
+      "share": 0.04132,
+      "expected_draws": 5289,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "lang:english_foundations": {
+      "rows": 9983,
+      "weighted_rows": 29949,
+      "share": 0.01288,
+      "expected_draws": 1648,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "molarity": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "momentum": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "multiplication": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "ohms_current": {
+      "rows": 40000,
+      "weighted_rows": 120000,
+      "share": 0.05159,
+      "expected_draws": 6603,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "percent": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "permutations": {
+      "rows": 40000,
+      "weighted_rows": 120000,
+      "share": 0.05159,
+      "expected_draws": 6603,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "power": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "sequence": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "spring_energy": {
+      "rows": 40000,
+      "weighted_rows": 120000,
+      "share": 0.05159,
+      "expected_draws": 6603,
+      "expected_epochs_of_its_rows": 0.1651
+    },
+    "subtraction": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "two_step": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "voltage": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "wave_speed": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "word_problem": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    },
+    "work": {
+      "rows": 40000,
+      "weighted_rows": 40000,
+      "share": 0.0172,
+      "expected_draws": 2201,
+      "expected_epochs_of_its_rows": 0.055
+    }
+  },
+  "seconds": 21.4
+}

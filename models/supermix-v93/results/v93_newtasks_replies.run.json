@@ -1,0 +1,366 @@
+{
+  "schema": "supermix-v82-problem-solving-accuracy-v2",
+  "checkpoint": "output\\v93_neurogenesis\\v93_neurogenesis.pt",
+  "dev_loss": 0.06235,
+  "problems": 231,
+  "unparsed_replies": 0,
+  "truncated_replies": 0,
+  "settings": {
+    "max_new_tokens": 96,
+    "legacy_max_new_tokens": 40,
+    "tolerance": 1e-06,
+    "seed": 65,
+    "tasks": [
+      "impulse",
+      "ohms_current",
+      "spring_energy",
+      "permutations",
+      "final_velocity",
+      "code_range_sum",
+      "code_list_count",
+      "code_neg_index",
+      "cns_type_count",
+      "cns_side_count",
+      "cns_pair_synapses"
+    ],
+    "task_set": "new",
+    "shared_rng": false,
+    "generator_fingerprint": "c1966c748de79c473219a692df1426c0",
+    "novel_requested": 231,
+    "seen_requested": 0,
+    "corpus": null,
+    "seen_skipped": "not requested",
+    "checkpoint_trained_on": "datasets/v93/v93_train_mix.jsonl"
+  },
+  "by_source": {
+    "novel": {
+      "n": 231,
+      "correct": 173,
+      "truncated": 0,
+      "abstained": 0,
+      "tasks": {
+        "cns_pair_synapses": {
+          "n": 21,
+          "correct": 0,
+          "accuracy": 0.0,
+          "accuracy_95ci": [
+            0.0,
+            0.1546
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": -1.0,
+          "accuracy_untruncated": 0.0,
+          "median_relative_error": 0.4835,
+          "within_10_percent": 0.2857
+        },
+        "cns_side_count": {
+          "n": 21,
+          "correct": 4,
+          "accuracy": 0.1905,
+          "accuracy_95ci": [
+            0.0767,
+            0.4
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": -0.619,
+          "accuracy_untruncated": 0.1905,
+          "median_relative_error": 0.25,
+          "within_10_percent": 0.2857
+        },
+        "cns_type_count": {
+          "n": 21,
+          "correct": 4,
+          "accuracy": 0.1905,
+          "accuracy_95ci": [
+            0.0767,
+            0.4
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": -0.619,
+          "accuracy_untruncated": 0.1905,
+          "median_relative_error": 0.3333,
+          "within_10_percent": 0.2857
+        },
+        "code_list_count": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_neg_index": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_range_sum": {
+          "n": 21,
+          "correct": 18,
+          "accuracy": 0.8571,
+          "accuracy_95ci": [
+            0.6536,
+            0.9502
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.7143,
+          "accuracy_untruncated": 0.8571,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.8571
+        },
+        "final_velocity": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "impulse": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "ohms_current": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "permutations": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "spring_energy": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        }
+      },
+      "accuracy": 0.7489,
+      "accuracy_95ci": [
+        0.6892,
+        0.8005
+      ],
+      "abstention_score": 0.4978,
+      "wrong": 58,
+      "accuracy_untruncated": 0.7489,
+      "median_relative_error": 0.0,
+      "within_10_percent": 0.7922
+    }
+  },
+  "memorisation_gap": null,
+  "memorisation_gap_withheld": null,
+  "examples": [
+    {
+      "source": "novel",
+      "task": "impulse",
+      "prompt": "A force of 71 N acts for 3 s. What is the impulse?",
+      "reply": "impulse = force x time, 70 x 3 = 210, 1 x 3 = 3, the impulse is 213 newton seconds, total ",
+      "expected": 213.0,
+      "predicted": 213.0,
+      "correct": true,
+      "tokens": 35,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "ohms_current",
+      "prompt": "What current flows through 7 ohm at 315 V?",
+      "reply": "current = voltage / resistance, 7 into 31 = 4, 4 x 7 = 28, 31 - 28 = 3, 7 into 35 = 5, 5 x",
+      "expected": 45.0,
+      "predicted": 45.0,
+      "correct": true,
+      "tokens": 53,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "spring_energy",
+      "prompt": "What is the elastic potential energy of a 16 N/m spring extended 7 m?",
+      "reply": "spring energy = half x spring constant x extension squared, half of 16 = 8, extension squa",
+      "expected": 392.0,
+      "predicted": 392.0,
+      "correct": true,
+      "tokens": 58,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "permutations",
+      "prompt": "In how many ways can 2 items be arranged in order from 5?",
+      "reply": "permutations = n x (n - 1), 5 - 1 = 4, 5 x 4 = 20, there are 20 arrangements, total 20",
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "tokens": 33,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "final_velocity",
+      "prompt": "A body moving at 14 m/s accelerates at 2 m/s^2 for 3 s. What is its final velocity?",
+      "reply": "final velocity = initial velocity + acceleration x time, 2 x 3 = 6, 14 + 6 = 20, the final",
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "tokens": 38,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "code_range_sum",
+      "prompt": "r = sum(range(3, 9)) Give the value of r.",
+      "reply": "range counts from 3 up to 8, r starts at 3, 3 + 4 = 7, 7 + 5 = 12, 12 + 6 = 18, 18 + 7 = 2",
+      "expected": 33.0,
+      "predicted": 33.0,
+      "correct": true,
+      "tokens": 59,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "code_list_count",
+      "prompt": "Trace this. nums = [4, 2, 2, 2]\nr = nums.count(2) r?",
+      "reply": "count checks each item against 2, 4 does not, 2 matches, 2 matches, 2 matches, r is 3, tot",
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "tokens": 27,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "code_neg_index",
+      "prompt": "nums = [2, 11, 4]\nr = nums[-2] What is r?",
+      "reply": "negative positions count from the end, nums [ -1 ] is 4, nums [ -2 ] is 11, r is 11, total",
+      "expected": 11.0,
+      "predicted": 11.0,
+      "correct": true,
+      "tokens": 33,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "cns_type_count",
+      "prompt": "In the male CNS, how many neurons have the cell type ORN_VA2?",
+      "reply": "type ORN_VA2 has 12 neurons, total 12",
+      "expected": 83.0,
+      "predicted": 12.0,
+      "correct": false,
+      "tokens": 14,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "cns_side_count",
+      "prompt": "How many neurons of type MeVPMe5 are on the left side of the male CNS?",
+      "reply": "type SNpp5 has 8 neurons on the left side, total 8",
+      "expected": 9.0,
+      "predicted": 8.0,
+      "correct": false,
+      "tokens": 14,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "cns_pair_synapses",
+      "prompt": "How many synapses go from type Tm5Y to type Tm29 in the male CNS?",
+      "reply": "type Tm5Y to type Tm29 has 4343 synapses, total 4343",
+      "expected": 3866.0,
+      "predicted": 4343.0,
+      "correct": false,
+      "tokens": 22,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "impulse",
+      "prompt": "force 47 N time 7 s find the impulse",
+      "reply": "impulse = force x time, 40 x 7 = 280, 7 x 7 = 49, the impulse is 329 newton seconds, total",
+      "expected": 329.0,
+      "predicted": 329.0,
+      "correct": true,
+      "tokens": 36,
+      "truncated": false
+    }
+  ],
+  "non_claims": [
+    "Accuracy on generated problems is not general problem solving. The 21 tasks are nine arithmetic templates (two- and three-digit operands, one or two steps) and twelve single-formula science and mathematics templates. Every prompt comes from a handful of fixed phrasings, so this measures a narrow, in-distribution slice and says nothing about multi-step reasoning, unfamiliar wording, or any task not listed.",
+    "A high 'seen' score with a low 'novel' score is recall, not skill; the gap is the finding, not either number alone.",
+    "Answer extraction takes the last number in the reply. A reply that reasons correctly and then trails off into another number scores wrong, so this is a lower bound on the model.",
+    "A per-task row's uncertainty depends on that row's n, which is novel_requested divided across the task list -- at the --novel 100 default over 21 tasks that is 4 or 5 problems per task, where the widest 95% Wilson interval spans about +-33 points, not the +-17 that n=30 gives. Every row carries its own interval in the receipt; read those rather than any rule of thumb. The trainer's MIN_SELECTION_PROBLEMS = 100 is the same argument applied to checkpoint selection.",
+    "Two receipts are comparable only if their seed, task list and generator_fingerprint all match. Before v82 tasks shared one RNG, so changing any generator silently changed every later task's problems for the same seed -- v80's pre- and post-commit n=630 receipts are not paired, and no delta between them should be quoted.",
+    "truncated_replies counts replies that spent the whole token budget without reaching a terminal 'total <number>'. Those are a limit of this harness, not a measured failure of the model, and 'accuracy' still counts them as wrong. Read 'accuracy' as a lower bound and 'accuracy_untruncated' as an upper one.",
+    "The abstention score is an alternative grading of the same replies, not a second measurement. It cannot reward calibrated uncertainty in a model that was never trained to express any -- these models emit a number or nothing.",
+    "The cns_* tasks (cns_type_count, cns_side_count, cns_pair_synapses) measure recall over the same population of types and type pairs the corpus was generated from: benchmark and corpus draw from one `build_connectome_corpus.population()`, and there is no held-out type. A score there is how much of the male-CNS table the model retained, not generalisation to a type it never saw, and it says nothing about the 10,000-odd types outside the population. Use --task_set v89 for the thirty tasks that pair with v87-v91 receipts and --task_set new for the eleven that have no baseline."
+  ]
+}

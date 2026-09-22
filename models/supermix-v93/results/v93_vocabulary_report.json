@@ -1,0 +1,483 @@
+{
+  "schema": "supermix-v93-vocabulary-report-v1",
+  "tokenizer": {
+    "source": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\output\\v89_corpus\\v89_corpus.pt",
+    "vocab_size": 8679,
+    "digit_tokens": true,
+    "reverse_digits": false
+  },
+  "rule": "a piece absent from v89's index adds its raw form and its lstripped form, as WordTokenizer.build/extend admit tokens; counts are over user and assistant fields of the NEW rows only",
+  "families": {
+    "omni_v93": {
+      "rows": 200000,
+      "pieces": 11322945,
+      "unknown_pieces": 708485,
+      "unknown_rate": 0.062571,
+      "new_token_ids": 38,
+      "most_common_new": [
+        [
+          "spring",
+          232749
+        ],
+        [
+          "impulse",
+          160000
+        ],
+        [
+          " spring",
+          139399
+        ],
+        [
+          "permutations",
+          108363
+        ],
+        [
+          " extension",
+          94348
+        ],
+        [
+          "extension",
+          94348
+        ],
+        [
+          " impulse",
+          80000
+        ],
+        [
+          "initial",
+          54603
+        ],
+        [
+          " initial",
+          47397
+        ],
+        [
+          " arrangements",
+          45712
+        ],
+        [
+          "arrangements",
+          45712
+        ],
+        [
+          " newton",
+          43036
+        ],
+        [
+          "newton",
+          43036
+        ],
+        [
+          " amperes",
+          40000
+        ],
+        [
+          "amperes",
+          40000
+        ]
+      ]
+    },
+    "code_v93": {
+      "rows": 60000,
+      "pieces": 3330052,
+      "unknown_pieces": 80002,
+      "unknown_rate": 0.024024,
+      "new_token_ids": 5,
+      "most_common_new": [
+        [
+          " matches",
+          40002
+        ],
+        [
+          "matches",
+          40002
+        ],
+        [
+          "negative",
+          40000
+        ],
+        [
+          " against",
+          20000
+        ],
+        [
+          "against",
+          20000
+        ]
+      ]
+    },
+    "connectome_tasks": {
+      "rows": 90000,
+      "pieces": 2983759,
+      "unknown_pieces": 643491,
+      "unknown_rate": 0.215665,
+      "new_token_ids": 327,
+      "most_common_new": [
+        [
+          " neurons",
+          108037
+        ],
+        [
+          "neurons",
+          108037
+        ],
+        [
+          " male",
+          90000
+        ],
+        [
+          "male",
+          90000
+        ],
+        [
+          " CNS",
+          90000
+        ],
+        [
+          "CNS",
+          90000
+        ],
+        [
+          "synapses",
+          59813
+        ],
+        [
+          " synapses",
+          48059
+        ],
+        [
+          "Count",
+          36046
+        ],
+        [
+          " Tm",
+          25284
+        ],
+        [
+          "Tm",
+          25284
+        ],
+        [
+          " TmY",
+          18512
+        ],
+        [
+          "TmY",
+          18512
+        ],
+        [
+          " IN",
+          16180
+        ],
+        [
+          "IN",
+          16180
+        ]
+      ]
+    },
+    "connectome_language": {
+      "rows": 30000,
+      "pieces": 1233885,
+      "unknown_pieces": 311731,
+      "unknown_rate": 0.252642,
+      "new_token_ids": 385,
+      "most_common_new": [
+        [
+          " male",
+          42697
+        ],
+        [
+          "male",
+          42697
+        ],
+        [
+          " CNS",
+          42697
+        ],
+        [
+          "CNS",
+          42697
+        ],
+        [
+          " synapses",
+          18304
+        ],
+        [
+          "synapses",
+          18304
+        ],
+        [
+          " strongest",
+          16436
+        ],
+        [
+          "strongest",
+          16436
+        ],
+        [
+          " downstream",
+          16436
+        ],
+        [
+          "downstream",
+          16436
+        ],
+        [
+          " IN",
+          10444
+        ],
+        [
+          "IN",
+          10444
+        ],
+        [
+          " intrinsic",
+          10004
+        ],
+        [
+          "intrinsic",
+          10004
+        ],
+        [
+          " acetylcholine",
+          9140
+        ]
+      ]
+    },
+    "english_foundations": {
+      "rows": 9983,
+      "pieces": 345612,
+      "unknown_pieces": 53435,
+      "unknown_rate": 0.15461,
+      "new_token_ids": 222,
+      "most_common_new": [
+        [
+          "\"",
+          12585
+        ],
+        [
+          " \"",
+          4195
+        ],
+        [
+          "Correct",
+          3410
+        ],
+        [
+          "Rewrite",
+          2924
+        ],
+        [
+          " grammar",
+          2822
+        ],
+        [
+          "grammar",
+          2822
+        ],
+        [
+          " however",
+          2772
+        ],
+        [
+          "however",
+          2772
+        ],
+        [
+          "punctuation",
+          2507
+        ],
+        [
+          " punctuation",
+          2349
+        ],
+        [
+          " capitalization",
+          2349
+        ],
+        [
+          "capitalization",
+          2349
+        ],
+        [
+          " daily",
+          1965
+        ],
+        [
+          "daily",
+          1965
+        ],
+        [
+          " easier",
+          1926
+        ]
+      ]
+    }
+  },
+  "union_new_token_ids": 657,
+  "union_most_common_new": [
+    [
+      "spring",
+      232749
+    ],
+    [
+      "impulse",
+      160000
+    ],
+    [
+      " spring",
+      139399
+    ],
+    [
+      " male",
+      132697
+    ],
+    [
+      "male",
+      132697
+    ],
+    [
+      " CNS",
+      132697
+    ],
+    [
+      "CNS",
+      132697
+    ],
+    [
+      " neurons",
+      115786
+    ],
+    [
+      "neurons",
+      115786
+    ],
+    [
+      "permutations",
+      108363
+    ],
+    [
+      " extension",
+      94652
+    ],
+    [
+      "extension",
+      94652
+    ],
+    [
+      " impulse",
+      80000
+    ],
+    [
+      "synapses",
+      78117
+    ],
+    [
+      " synapses",
+      66363
+    ],
+    [
+      "initial",
+      54603
+    ],
+    [
+      " initial",
+      47397
+    ],
+    [
+      " arrangements",
+      45712
+    ],
+    [
+      "arrangements",
+      45712
+    ],
+    [
+      " newton",
+      43036
+    ],
+    [
+      "newton",
+      43036
+    ],
+    [
+      " matches",
+      40002
+    ],
+    [
+      "matches",
+      40002
+    ],
+    [
+      " amperes",
+      40000
+    ],
+    [
+      "amperes",
+      40000
+    ],
+    [
+      "negative",
+      40000
+    ],
+    [
+      "Count",
+      36046
+    ],
+    [
+      " Tm",
+      27822
+    ],
+    [
+      "Tm",
+      27822
+    ],
+    [
+      " IN",
+      26624
+    ],
+    [
+      "IN",
+      26624
+    ],
+    [
+      " TmY",
+      20263
+    ],
+    [
+      "TmY",
+      20263
+    ],
+    [
+      " against",
+      20000
+    ],
+    [
+      "against",
+      20000
+    ],
+    [
+      " strongest",
+      16436
+    ],
+    [
+      "strongest",
+      16436
+    ],
+    [
+      " downstream",
+      16436
+    ],
+    [
+      "downstream",
+      16436
+    ],
+    [
+      " connectome",
+      14572
+    ]
+  ],
+  "cap": 2500,
+  "within_cap": true,
+  "note": "over the cap, shrink build_connectome_corpus's population (--max_types) and rebuild: type names are where the new letter runs come from"
+}

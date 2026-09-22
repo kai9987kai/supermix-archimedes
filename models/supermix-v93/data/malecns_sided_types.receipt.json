@@ -1,0 +1,103 @@
+{
+  "schema": "supermix-v93-malecns-sided-types-v1",
+  "source": "Janelia FlyEM male-cns v1.0 flat connectome, minconf 0.5 (CC-BY)",
+  "source_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/",
+  "files_md5_b64": {
+    "body-annotations-male-cns-v1.0-minconf-0.5.feather": "UKdxh3DFciDxYLpPQxq4ng==",
+    "body-neurotransmitters-male-cns-v1.0.feather": "PYQrEv5cSe763lKNfdJKHw==",
+    "connectome-weights-male-cns-v1.0-minconf-0.5.feather": "8w6dzKJc/QIb8eez2XVZng=="
+  },
+  "types": "datasets/v91_malecns/malecns_types.npz",
+  "types_sha256": "a582ac7da0c86221c654c0793aef78f3049d5fc4fa4f8c264e9a1f3eda2b0271",
+  "side_rule": "somaSide if in {L,R} else rootSide if in {L,R} else dropped (M counted as midline)",
+  "typed_neurons": 164506,
+  "bodies_by_side": {
+    "L": 80786,
+    "R": 82932,
+    "M": 375,
+    "unknown": 413
+  },
+  "root_side_fallbacks": 16551,
+  "root_side_fallbacks_by_side": {
+    "L": 7283,
+    "R": 9268
+  },
+  "root_side_fallbacks_by_superclass": {
+    "cb_sensory": 4346,
+    "sensory_descending": 12,
+    "ol_sensory": 6062,
+    "sensory_ascending": 528,
+    "sensory_ascending_tbc": 1,
+    "vnc_sensory": 5602
+  },
+  "soma_root_side_conflicts_soma_wins": 1,
+  "dropped_midline_bodies": 375,
+  "dropped_midline_types": 161,
+  "dropped_midline_types_without_sided_bodies": 161,
+  "dropped_midline_bodies_by_superclass": {
+    "cb_intrinsic": 76,
+    "descending_neuron": 10,
+    "ascending_neuron": 9,
+    "vnc_efferent": 49,
+    "efferent_ascending": 2,
+    "vnc_intrinsic": 229
+  },
+  "dropped_unknown_side_bodies": 413,
+  "sided_nodes": 22871,
+  "nodes_by_side": {
+    "L": 11449,
+    "R": 11422
+  },
+  "types_on_both_sides": 11281,
+  "types_left_only": 168,
+  "types_right_only": 141,
+  "types_without_sided_bodies": 161,
+  "single_body_nodes": 11335,
+  "median_bodies_per_node": 2.0,
+  "cell_types": 11751,
+  "sided_edges": 6185364,
+  "sided_edges_by_block": {
+    "LL": 2048050,
+    "RR": 2057448,
+    "LR": 1042436,
+    "RL": 1037430
+  },
+  "body_edge_rows": 151856684,
+  "body_edge_rows_kept_typed": 25135616,
+  "synapses_total": 311833243,
+  "synapses_typed_typed": 122318556,
+  "synapses_sided": 120521994,
+  "synapse_fraction_sided_of_total": 0.38649501522196594,
+  "synapse_fraction_sided_of_typed": 0.9853124328903948,
+  "synapses_by_block": {
+    "LL": 44910824,
+    "RR": 49996610,
+    "LR": 12807568,
+    "RL": 12806992
+  },
+  "synapse_share_by_block": {
+    "LL": 0.372636,
+    "RR": 0.414834,
+    "LR": 0.106267,
+    "RL": 0.106263
+  },
+  "synapses_by_endpoint_class": {
+    "sided->sided": 120521994,
+    "sided->midline": 861282,
+    "sided->unknown_side": 22128,
+    "midline->sided": 788059,
+    "midline->midline": 37300,
+    "midline->unknown_side": 41,
+    "unknown_side->sided": 85711,
+    "unknown_side->midline": 66,
+    "unknown_side->unknown_side": 1975
+  },
+  "synapses_dropped_midline": 1686748,
+  "synapses_dropped_unknown_side": 109921,
+  "synapses_dropped_total": 1796562,
+  "seconds": {
+    "stream": 43.9,
+    "total": 51.4
+  },
+  "output": "datasets/v93_malecns/malecns_sided_types.npz"
+}

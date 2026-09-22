@@ -1,0 +1,400 @@
+{
+  "schema": "supermix-v93-malecns-hemispheres-v1",
+  "scheme": "mirror",
+  "types": "datasets/v91_malecns/malecns_types.npz",
+  "sided_types": "datasets/v93_malecns/malecns_sided_types.npz",
+  "input_sha256": {
+    "types": "a582ac7da0c86221c654c0793aef78f3049d5fc4fa4f8c264e9a1f3eda2b0271",
+    "sided_types": "e1e13ef3ca8b1861dcbc0bf639c7572459d690970b11b0ca366fb8f2bfb0562e"
+  },
+  "n_per_side_requested": 384,
+  "n_per_side": 384,
+  "n_modules": 768,
+  "min_input_fraction": 0.01,
+  "input_fraction_denominator": "total (ipsilateral + commissural) input of the post module",
+  "edges": 16373,
+  "density": 0.02776,
+  "self_loops": 669,
+  "rewired_self_loops": 669,
+  "blocks": {
+    "LL": {
+      "edges": 5391,
+      "self_loops": 336,
+      "density": 0.03656,
+      "fraction_mass": 204.7411
+    },
+    "RR": {
+      "edges": 5336,
+      "self_loops": 333,
+      "density": 0.036187,
+      "fraction_mass": 205.1368
+    },
+    "LR": {
+      "edges": 2826,
+      "self_loops": 0,
+      "density": 0.019165,
+      "fraction_mass": 73.7326
+    },
+    "RL": {
+      "edges": 2820,
+      "self_loops": 0,
+      "density": 0.019124,
+      "fraction_mass": 73.9669
+    }
+  },
+  "per_side": {
+    "L": {
+      "modules": 384,
+      "empty_modules": 0,
+      "excitatory_modules": 220,
+      "inhibitory_modules": 164,
+      "types": 11449,
+      "neurons": 80786
+    },
+    "R": {
+      "modules": 384,
+      "empty_modules": 0,
+      "excitatory_modules": 220,
+      "inhibitory_modules": 164,
+      "types": 11422,
+      "neurons": 82932
+    }
+  },
+  "empty_module_ids": [],
+  "empty_module_labels": [],
+  "groups": [
+    {
+      "role": "sensory",
+      "sign": 1,
+      "types": 354,
+      "modules": 13
+    },
+    {
+      "role": "sensory",
+      "sign": -1,
+      "types": 14,
+      "modules": 2
+    },
+    {
+      "role": "visual",
+      "sign": 1,
+      "types": 394,
+      "modules": 39
+    },
+    {
+      "role": "visual",
+      "sign": -1,
+      "types": 331,
+      "modules": 30
+    },
+    {
+      "role": "central",
+      "sign": 1,
+      "types": 3687,
+      "modules": 103
+    },
+    {
+      "role": "central",
+      "sign": -1,
+      "types": 2918,
+      "modules": 76
+    },
+    {
+      "role": "vnc",
+      "sign": 1,
+      "types": 1198,
+      "modules": 33
+    },
+    {
+      "role": "vnc",
+      "sign": -1,
+      "types": 1579,
+      "modules": 41
+    },
+    {
+      "role": "ascending",
+      "sign": 1,
+      "types": 369,
+      "modules": 13
+    },
+    {
+      "role": "ascending",
+      "sign": -1,
+      "types": 199,
+      "modules": 7
+    },
+    {
+      "role": "descending",
+      "sign": 1,
+      "types": 353,
+      "modules": 13
+    },
+    {
+      "role": "descending",
+      "sign": -1,
+      "types": 128,
+      "modules": 5
+    },
+    {
+      "role": "output",
+      "sign": 1,
+      "types": 173,
+      "modules": 6
+    },
+    {
+      "role": "output",
+      "sign": -1,
+      "types": 54,
+      "modules": 3
+    }
+  ],
+  "strata": {
+    "node": 28,
+    "edge": 52
+  },
+  "rewire": {
+    "kind": "stratified_by_source_side_role_sign_and_target_side_fraction_carried_with_target",
+    "swaps_accepted": 157040,
+    "swap_attempts": 213395,
+    "edges_rewired": 15704,
+    "self_loops_held": 669,
+    "strata": 52
+  },
+  "side_blind_rewire": {
+    "kind": "stratified_by_source_role_and_sign_fraction_carried_with_target",
+    "swaps_accepted": 157040,
+    "swap_attempts": 201949,
+    "edges_rewired": 15704,
+    "self_loops_held": 669,
+    "strata": 14
+  },
+  "null_kind": "stratified_by_source_side_role_sign_and_target_side_fraction_carried_with_target",
+  "diagnostics": {
+    "real": {
+      "edges": 16373,
+      "abs_spectral_radius_unscaled": 0.962297,
+      "scale_to_abs_radius": 0.935262,
+      "signed_spectral_radius": 0.550385,
+      "signed_max_real_eigenvalue": 0.505033,
+      "input_fraction_row_sum_max": 0.990296,
+      "rows_over_one": 0,
+      "reciprocity": 0.42295,
+      "clustering": 0.401181,
+      "role_modularity": 0.331633,
+      "linear_io_gain_frobenius": 0.491368,
+      "hops_afferent_to_efferent": {
+        "mean": 3.083950617283951,
+        "reachable_fraction": 1.0
+      },
+      "blocks": {
+        "LL": {
+          "edges": 5391,
+          "self_loops": 336,
+          "density": 0.03656,
+          "fraction_mass": 204.7411
+        },
+        "RR": {
+          "edges": 5336,
+          "self_loops": 333,
+          "density": 0.036187,
+          "fraction_mass": 205.1368
+        },
+        "LR": {
+          "edges": 2826,
+          "self_loops": 0,
+          "density": 0.019165,
+          "fraction_mass": 73.7326
+        },
+        "RL": {
+          "edges": 2820,
+          "self_loops": 0,
+          "density": 0.019124,
+          "fraction_mass": 73.9669
+        }
+      },
+      "side_modularity": 0.140393,
+      "homolog_edge_symmetry": {
+        "all": 0.934832,
+        "ipsilateral": 0.940431,
+        "commissural": 0.924194
+      },
+      "homolog_fraction_correlation": 0.980483,
+      "commissural_input_share": {
+        "mean_over_modules_with_input": 0.192317,
+        "max": 0.789447,
+        "modules_with_input": 768,
+        "modules_without_commissural_input": 46
+      },
+      "abs_spectral_radius": {
+        "left": 0.923931,
+        "right": 0.926233,
+        "joint": 0.962297
+      },
+      "hops_left_sensory_to_left_efferent": {
+        "mean": 3.0592592592592593,
+        "reachable_fraction": 1.0
+      },
+      "hops_left_sensory_to_right_efferent": {
+        "mean": 3.093827160493827,
+        "reachable_fraction": 1.0
+      }
+    },
+    "stratified_null": {
+      "edges": 16373,
+      "abs_spectral_radius_unscaled": 0.86189,
+      "scale_to_abs_radius": 1.044216,
+      "signed_spectral_radius": 0.613377,
+      "signed_max_real_eigenvalue": 0.577386,
+      "input_fraction_row_sum_max": 0.990296,
+      "rows_over_one": 0,
+      "reciprocity": 0.071956,
+      "clustering": 0.140484,
+      "role_modularity": 0.347406,
+      "linear_io_gain_frobenius": 0.561197,
+      "hops_afferent_to_efferent": {
+        "mean": 2.449382716049383,
+        "reachable_fraction": 1.0
+      },
+      "edge_overlap_with_real": 0.209003,
+      "modules_with_changed_inhibitory_input_count": 0,
+      "role_block_edge_count_l1_diff": 0,
+      "blocks": {
+        "LL": {
+          "edges": 5391,
+          "self_loops": 336,
+          "density": 0.03656,
+          "fraction_mass": 204.7411
+        },
+        "RR": {
+          "edges": 5336,
+          "self_loops": 333,
+          "density": 0.036187,
+          "fraction_mass": 205.1368
+        },
+        "LR": {
+          "edges": 2826,
+          "self_loops": 0,
+          "density": 0.019165,
+          "fraction_mass": 73.7326
+        },
+        "RL": {
+          "edges": 2820,
+          "self_loops": 0,
+          "density": 0.019124,
+          "fraction_mass": 73.9669
+        }
+      },
+      "side_modularity": 0.137423,
+      "homolog_edge_symmetry": {
+        "all": 0.193856,
+        "ipsilateral": 0.223548,
+        "commissural": 0.137442
+      },
+      "homolog_fraction_correlation": 0.685639,
+      "commissural_input_share": {
+        "mean_over_modules_with_input": 0.192317,
+        "max": 0.789447,
+        "modules_with_input": 768,
+        "modules_without_commissural_input": 46
+      },
+      "abs_spectral_radius": {
+        "left": 0.824341,
+        "right": 0.838176,
+        "joint": 0.86189
+      },
+      "hops_left_sensory_to_left_efferent": {
+        "mean": 2.4,
+        "reachable_fraction": 1.0
+      },
+      "hops_left_sensory_to_right_efferent": {
+        "mean": 2.4518518518518517,
+        "reachable_fraction": 1.0
+      },
+      "side_block_edge_count_l1_diff": 0,
+      "modules_with_changed_commissural_input_count": 0
+    },
+    "side_blind_null": {
+      "edges": 16373,
+      "abs_spectral_radius_unscaled": 0.849921,
+      "scale_to_abs_radius": 1.058921,
+      "signed_spectral_radius": 0.589673,
+      "signed_max_real_eigenvalue": 0.589673,
+      "input_fraction_row_sum_max": 0.990296,
+      "rows_over_one": 0,
+      "reciprocity": 0.064315,
+      "clustering": 0.124876,
+      "role_modularity": 0.349699,
+      "linear_io_gain_frobenius": 0.608984,
+      "hops_afferent_to_efferent": {
+        "mean": 2.4518518518518517,
+        "reachable_fraction": 1.0
+      },
+      "edge_overlap_with_real": 0.170402,
+      "modules_with_changed_inhibitory_input_count": 0,
+      "role_block_edge_count_l1_diff": 0,
+      "blocks": {
+        "LL": {
+          "edges": 4293,
+          "self_loops": 336,
+          "density": 0.029114,
+          "fraction_mass": 152.8016
+        },
+        "RR": {
+          "edges": 4238,
+          "self_loops": 333,
+          "density": 0.028741,
+          "fraction_mass": 148.8837
+        },
+        "LR": {
+          "edges": 3924,
+          "self_loops": 0,
+          "density": 0.026611,
+          "fraction_mass": 129.9857
+        },
+        "RL": {
+          "edges": 3918,
+          "self_loops": 0,
+          "density": 0.026571,
+          "fraction_mass": 125.9065
+        }
+      },
+      "side_modularity": -0.000501,
+      "homolog_edge_symmetry": {
+        "all": 0.164661,
+        "ipsilateral": 0.196929,
+        "commissural": 0.129559
+      },
+      "homolog_fraction_correlation": 0.778564,
+      "commissural_input_share": {
+        "mean_over_modules_with_input": 0.333193,
+        "max": 0.893307,
+        "modules_with_input": 768,
+        "modules_without_commissural_input": 2
+      },
+      "abs_spectral_radius": {
+        "left": 0.569991,
+        "right": 0.560349,
+        "joint": 0.849921
+      },
+      "hops_left_sensory_to_left_efferent": {
+        "mean": 2.454320987654321,
+        "reachable_fraction": 1.0
+      },
+      "hops_left_sensory_to_right_efferent": {
+        "mean": 2.474074074074074,
+        "reachable_fraction": 1.0
+      },
+      "side_block_edge_count_l1_diff": 4392,
+      "modules_with_changed_commissural_input_count": 710
+    }
+  },
+  "seed": 0,
+  "null_seed": 1,
+  "seconds": {
+    "cluster": 1.0,
+    "rewire": 2.2,
+    "diagnostics": 7.2,
+    "total": 10.8
+  },
+  "output": "datasets/v93_malecns/malecns_hemispheres_384.npz"
+}

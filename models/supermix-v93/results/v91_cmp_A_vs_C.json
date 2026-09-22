@@ -1,0 +1,302 @@
+{
+  "schema": "supermix-paired-transcript-audit-v1",
+  "baseline": {
+    "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\output\\v91_malecns\\C_replies.jsonl",
+    "sha256": "4a3f1350c4771a146c34d6235f1d825cf6643e7a97a010241d9da15607d5c2e4",
+    "unique_inputs": 628,
+    "duplicate_draws": 2
+  },
+  "candidate": {
+    "path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\output\\v91_malecns\\A_replies.jsonl",
+    "sha256": "54ef169e41463f627f4a51d5698b5f2e10c8c80bc2acba601a75a035e6dfb07d",
+    "unique_inputs": 628,
+    "duplicate_draws": 2
+  },
+  "complete_cohort_match": true,
+  "excluded_baseline_by_task": {},
+  "excluded_candidate_by_task": {},
+  "paired_inputs_sha256": "9ca208b5c45cb9b5e907cd5b9effee229af3827b6a8784699797896076ef4c0c",
+  "overall": {
+    "n": 628,
+    "baseline_correct": 580,
+    "candidate_correct": 587,
+    "accuracy_delta": 0.011146496815286623,
+    "candidate_only_correct": 10,
+    "baseline_only_correct": 3,
+    "mcnemar_exact_two_sided_p": 0.09228515625
+  },
+  "by_task": {
+    "acceleration": {
+      "n": 21,
+      "baseline_correct": 17,
+      "candidate_correct": 16,
+      "accuracy_delta": -0.047619047619047616,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "algebra_one_step": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "arithmetic": {
+      "n": 21,
+      "baseline_correct": 18,
+      "candidate_correct": 17,
+      "accuracy_delta": -0.047619047619047616,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "arithmetic_series": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "average": {
+      "n": 21,
+      "baseline_correct": 10,
+      "candidate_correct": 11,
+      "accuracy_delta": 0.047619047619047616,
+      "candidate_only_correct": 1,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_conditional": {
+      "n": 21,
+      "baseline_correct": 20,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.047619047619047616,
+      "candidate_only_correct": 1,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_divmod": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_index": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_list_extreme": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_list_sum": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_loop_add": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_loop_subtract": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_nested_loop": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "code_while_accumulate": {
+      "n": 21,
+      "baseline_correct": 18,
+      "candidate_correct": 20,
+      "accuracy_delta": 0.09523809523809523,
+      "candidate_only_correct": 2,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 0.5
+    },
+    "combination": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "division": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "electrical_power": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "force": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "kinetic_energy": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "molarity": {
+      "n": 21,
+      "baseline_correct": 20,
+      "candidate_correct": 20,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "momentum": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "multiplication": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "percent": {
+      "n": 21,
+      "baseline_correct": 15,
+      "candidate_correct": 15,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "power": {
+      "n": 21,
+      "baseline_correct": 14,
+      "candidate_correct": 18,
+      "accuracy_delta": 0.19047619047619047,
+      "candidate_only_correct": 4,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 0.125
+    },
+    "sequence": {
+      "n": 19,
+      "baseline_correct": 19,
+      "candidate_correct": 19,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "two_step": {
+      "n": 21,
+      "baseline_correct": 13,
+      "candidate_correct": 13,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 1,
+      "baseline_only_correct": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "voltage": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "wave_speed": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "word_problem": {
+      "n": 21,
+      "baseline_correct": 17,
+      "candidate_correct": 18,
+      "accuracy_delta": 0.047619047619047616,
+      "candidate_only_correct": 1,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "work": {
+      "n": 21,
+      "baseline_correct": 21,
+      "candidate_correct": 21,
+      "accuracy_delta": 0.0,
+      "candidate_only_correct": 0,
+      "baseline_only_correct": 0,
+      "mcnemar_exact_two_sided_p": 1.0
+    }
+  },
+  "promotion_authorized": false,
+  "limitations": "Descriptive paired outcomes; no checkpoint authentication, decoding-budget comparability, semantic independence, multiplicity correction, or unused-holdout claim follows from legacy transcripts alone."
+}

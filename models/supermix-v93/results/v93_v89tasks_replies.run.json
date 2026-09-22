@@ -1,0 +1,670 @@
+{
+  "schema": "supermix-v82-problem-solving-accuracy-v2",
+  "checkpoint": "output\\v93_neurogenesis\\v93_neurogenesis.pt",
+  "dev_loss": 0.06235,
+  "problems": 630,
+  "unparsed_replies": 0,
+  "truncated_replies": 0,
+  "settings": {
+    "max_new_tokens": 96,
+    "legacy_max_new_tokens": 40,
+    "tolerance": 1e-06,
+    "seed": 65,
+    "tasks": [
+      "arithmetic",
+      "percent",
+      "average",
+      "algebra_one_step",
+      "word_problem",
+      "multiplication",
+      "division",
+      "sequence",
+      "two_step",
+      "force",
+      "acceleration",
+      "momentum",
+      "kinetic_energy",
+      "work",
+      "power",
+      "voltage",
+      "electrical_power",
+      "wave_speed",
+      "molarity",
+      "combination",
+      "arithmetic_series",
+      "code_loop_add",
+      "code_loop_subtract",
+      "code_list_sum",
+      "code_list_extreme",
+      "code_index",
+      "code_conditional",
+      "code_divmod",
+      "code_nested_loop",
+      "code_while_accumulate"
+    ],
+    "task_set": "v89",
+    "shared_rng": false,
+    "generator_fingerprint": "3b99a446cd533be9bc5f8ae57d1310b4",
+    "novel_requested": 630,
+    "seen_requested": 0,
+    "corpus": null,
+    "seen_skipped": "not requested",
+    "checkpoint_trained_on": "datasets/v93/v93_train_mix.jsonl"
+  },
+  "by_source": {
+    "novel": {
+      "n": 630,
+      "correct": 571,
+      "truncated": 0,
+      "abstained": 0,
+      "tasks": {
+        "acceleration": {
+          "n": 21,
+          "correct": 10,
+          "accuracy": 0.4762,
+          "accuracy_95ci": [
+            0.2834,
+            0.6763
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": -0.0476,
+          "accuracy_untruncated": 0.4762,
+          "median_relative_error": 0.0357,
+          "within_10_percent": 0.7143
+        },
+        "algebra_one_step": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "arithmetic": {
+          "n": 21,
+          "correct": 17,
+          "accuracy": 0.8095,
+          "accuracy_95ci": [
+            0.6,
+            0.9233
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.619,
+          "accuracy_untruncated": 0.8095,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.9524
+        },
+        "arithmetic_series": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "average": {
+          "n": 21,
+          "correct": 10,
+          "accuracy": 0.4762,
+          "accuracy_95ci": [
+            0.2834,
+            0.6763
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": -0.0476,
+          "accuracy_untruncated": 0.4762,
+          "median_relative_error": 0.0093,
+          "within_10_percent": 0.9048
+        },
+        "code_conditional": {
+          "n": 21,
+          "correct": 20,
+          "accuracy": 0.9524,
+          "accuracy_95ci": [
+            0.7733,
+            0.9915
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.9048,
+          "accuracy_untruncated": 0.9524,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.9524
+        },
+        "code_divmod": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_index": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_list_extreme": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_list_sum": {
+          "n": 21,
+          "correct": 20,
+          "accuracy": 0.9524,
+          "accuracy_95ci": [
+            0.7733,
+            0.9915
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.9048,
+          "accuracy_untruncated": 0.9524,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.9524
+        },
+        "code_loop_add": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_loop_subtract": {
+          "n": 21,
+          "correct": 20,
+          "accuracy": 0.9524,
+          "accuracy_95ci": [
+            0.7733,
+            0.9915
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.9048,
+          "accuracy_untruncated": 0.9524,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.9524
+        },
+        "code_nested_loop": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "code_while_accumulate": {
+          "n": 21,
+          "correct": 19,
+          "accuracy": 0.9048,
+          "accuracy_95ci": [
+            0.7109,
+            0.9735
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.8095,
+          "accuracy_untruncated": 0.9048,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.9048
+        },
+        "combination": {
+          "n": 21,
+          "correct": 20,
+          "accuracy": 0.9524,
+          "accuracy_95ci": [
+            0.7733,
+            0.9915
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.9048,
+          "accuracy_untruncated": 0.9524,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "division": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "electrical_power": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "force": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "kinetic_energy": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "molarity": {
+          "n": 21,
+          "correct": 18,
+          "accuracy": 0.8571,
+          "accuracy_95ci": [
+            0.6536,
+            0.9502
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.7143,
+          "accuracy_untruncated": 0.8571,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.8571
+        },
+        "momentum": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "multiplication": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "percent": {
+          "n": 21,
+          "correct": 16,
+          "accuracy": 0.7619,
+          "accuracy_95ci": [
+            0.5491,
+            0.8937
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.5238,
+          "accuracy_untruncated": 0.7619,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "power": {
+          "n": 21,
+          "correct": 14,
+          "accuracy": 0.6667,
+          "accuracy_95ci": [
+            0.4537,
+            0.8281
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.3333,
+          "accuracy_untruncated": 0.6667,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.8571
+        },
+        "sequence": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "two_step": {
+          "n": 21,
+          "correct": 12,
+          "accuracy": 0.5714,
+          "accuracy_95ci": [
+            0.3655,
+            0.7553
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.1429,
+          "accuracy_untruncated": 0.5714,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.8571
+        },
+        "voltage": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "wave_speed": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        },
+        "word_problem": {
+          "n": 21,
+          "correct": 18,
+          "accuracy": 0.8571,
+          "accuracy_95ci": [
+            0.6536,
+            0.9502
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 0.7143,
+          "accuracy_untruncated": 0.8571,
+          "median_relative_error": 0.0,
+          "within_10_percent": 0.8571
+        },
+        "work": {
+          "n": 21,
+          "correct": 21,
+          "accuracy": 1.0,
+          "accuracy_95ci": [
+            0.8454,
+            1.0
+          ],
+          "truncated": 0,
+          "abstained": 0,
+          "abstention_score": 1.0,
+          "accuracy_untruncated": 1.0,
+          "median_relative_error": 0.0,
+          "within_10_percent": 1.0
+        }
+      },
+      "accuracy": 0.9063,
+      "accuracy_95ci": [
+        0.8811,
+        0.9267
+      ],
+      "abstention_score": 0.8127,
+      "wrong": 59,
+      "accuracy_untruncated": 0.9063,
+      "median_relative_error": 0.0,
+      "within_10_percent": 0.9587
+    }
+  },
+  "memorisation_gap": null,
+  "memorisation_gap_withheld": null,
+  "examples": [
+    {
+      "source": "novel",
+      "task": "arithmetic",
+      "prompt": "Solve this basic math problem: 676 - 605",
+      "reply": "600 - 600 = 0, 76 - 5 = 71, total 71",
+      "expected": 71.0,
+      "predicted": 71.0,
+      "correct": true,
+      "tokens": 22,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "percent",
+      "prompt": "What is 15% of 603?",
+      "reply": "1 percent of 603 = 6.03, times 10 = 60.3, times 5 = 30.15, total 90.45",
+      "expected": 90.45,
+      "predicted": 90.45,
+      "correct": true,
+      "tokens": 37,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "average",
+      "prompt": "Find the average (mean) of these numbers: 58, 14, 8, 25, 6, 52",
+      "reply": "58 + 14 = 72, 72 + 8 = 70, 70 + 25 = 95, 95 + 6 = 101, 101 + 6 = 107, 107 + 52 = 159, tota",
+      "expected": 27.166666666666668,
+      "predicted": 26.5,
+      "correct": false,
+      "tokens": 71,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "algebra_one_step",
+      "prompt": "Solve for x: x + 27 = -3",
+      "reply": "subtract 27 from both sides, 0 - 20 = -20, -3 - 7 = -10, total -30",
+      "expected": -30.0,
+      "predicted": -30.0,
+      "correct": true,
+      "tokens": 30,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "word_problem",
+      "prompt": "A student has 91 marbles. They get 41 more and then give away 51. How many marbles do they",
+      "reply": "91 + 41 = 132, 132 - 51 = 71, total 71",
+      "expected": 81.0,
+      "predicted": 71.0,
+      "correct": false,
+      "tokens": 24,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "multiplication",
+      "prompt": "Solve this basic math problem: 82 x 4",
+      "reply": "80 x 4 = 320, 2 x 4 = 8, total 328",
+      "expected": 328.0,
+      "predicted": 328.0,
+      "correct": true,
+      "tokens": 20,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "division",
+      "prompt": "Solve this basic math problem: 486 / 9",
+      "reply": "450 / 9 = 50, 36 / 9 = 4, total 54",
+      "expected": 54.0,
+      "predicted": 54.0,
+      "correct": true,
+      "tokens": 20,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "sequence",
+      "prompt": "What comes next in the sequence: 26, 38, 50, 62?",
+      "reply": "38 - 26 = 12, difference 12, 62 + 12 = 74, total 74",
+      "expected": 74.0,
+      "predicted": 74.0,
+      "correct": true,
+      "tokens": 26,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "two_step",
+      "prompt": "What is 10% of 90, then subtract 36?",
+      "reply": "1 percent of 90 = 0.9, times 10 = 9, then 9 - 36 = -37, total -37",
+      "expected": -27.0,
+      "predicted": -37.0,
+      "correct": false,
+      "tokens": 31,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "force",
+      "prompt": "Given mass 16 kg and acceleration 9 m/s^2, compute the force.",
+      "reply": "force = mass x acceleration, 10 x 9 = 90, 6 x 9 = 54, the force is 144 newtons, total 144",
+      "expected": 144.0,
+      "predicted": 144.0,
+      "correct": true,
+      "tokens": 34,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "acceleration",
+      "prompt": "Find the acceleration produced by 4648 N on 166 kg.",
+      "reply": "acceleration = force / mass, 166 into 464 = 2, 2 x 166 = 332, 464 - 332 = 122, 166 into 12",
+      "expected": 28.0,
+      "predicted": 27.0,
+      "correct": false,
+      "tokens": 74,
+      "truncated": false
+    },
+    {
+      "source": "novel",
+      "task": "momentum",
+      "prompt": "What is the linear momentum for mass 73 kg and velocity 5 m/s?",
+      "reply": "momentum = mass x velocity, 70 x 5 = 350, 3 x 5 = 15, the momentum is 365 kilogram metres ",
+      "expected": 365.0,
+      "predicted": 365.0,
+      "correct": true,
+      "tokens": 38,
+      "truncated": false
+    }
+  ],
+  "non_claims": [
+    "Accuracy on generated problems is not general problem solving. The 21 tasks are nine arithmetic templates (two- and three-digit operands, one or two steps) and twelve single-formula science and mathematics templates. Every prompt comes from a handful of fixed phrasings, so this measures a narrow, in-distribution slice and says nothing about multi-step reasoning, unfamiliar wording, or any task not listed.",
+    "A high 'seen' score with a low 'novel' score is recall, not skill; the gap is the finding, not either number alone.",
+    "Answer extraction takes the last number in the reply. A reply that reasons correctly and then trails off into another number scores wrong, so this is a lower bound on the model.",
+    "A per-task row's uncertainty depends on that row's n, which is novel_requested divided across the task list -- at the --novel 100 default over 21 tasks that is 4 or 5 problems per task, where the widest 95% Wilson interval spans about +-33 points, not the +-17 that n=30 gives. Every row carries its own interval in the receipt; read those rather than any rule of thumb. The trainer's MIN_SELECTION_PROBLEMS = 100 is the same argument applied to checkpoint selection.",
+    "Two receipts are comparable only if their seed, task list and generator_fingerprint all match. Before v82 tasks shared one RNG, so changing any generator silently changed every later task's problems for the same seed -- v80's pre- and post-commit n=630 receipts are not paired, and no delta between them should be quoted.",
+    "truncated_replies counts replies that spent the whole token budget without reaching a terminal 'total <number>'. Those are a limit of this harness, not a measured failure of the model, and 'accuracy' still counts them as wrong. Read 'accuracy' as a lower bound and 'accuracy_untruncated' as an upper one.",
+    "The abstention score is an alternative grading of the same replies, not a second measurement. It cannot reward calibrated uncertainty in a model that was never trained to express any -- these models emit a number or nothing.",
+    "The cns_* tasks (cns_type_count, cns_side_count, cns_pair_synapses) measure recall over the same population of types and type pairs the corpus was generated from: benchmark and corpus draw from one `build_connectome_corpus.population()`, and there is no held-out type. A score there is how much of the male-CNS table the model retained, not generalisation to a type it never saw, and it says nothing about the 10,000-odd types outside the population. Use --task_set v89 for the thirty tasks that pair with v87-v91 receipts and --task_set new for the eleven that have no baseline."
+  ]
+}

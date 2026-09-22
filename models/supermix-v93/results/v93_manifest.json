@@ -1,0 +1,363 @@
+{
+  "schema": "supermix-v93-corpus-v1",
+  "output": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v93\\v93_combined.jsonl",
+  "seed": 93,
+  "rows": 1546091,
+  "task_rows": 1410000,
+  "language_rows": 136091,
+  "language_by_domain": {
+    "dialogue": 96108,
+    "connectome": 30000,
+    "english_foundations": 9983
+  },
+  "per_task": {
+    "force": 40000,
+    "acceleration": 40000,
+    "momentum": 40000,
+    "kinetic_energy": 40000,
+    "work": 40000,
+    "power": 40000,
+    "voltage": 40000,
+    "electrical_power": 40000,
+    "wave_speed": 40000,
+    "molarity": 40000,
+    "combination": 40000,
+    "arithmetic_series": 40000,
+    "addition": 40000,
+    "two_step": 40000,
+    "average": 40000,
+    "word_problem": 40000,
+    "division": 40000,
+    "algebra_one_step": 40000,
+    "subtraction": 40000,
+    "sequence": 40000,
+    "percent": 40000,
+    "multiplication": 40000,
+    "code_loop_add": 20000,
+    "code_loop_subtract": 20000,
+    "code_list_sum": 20000,
+    "code_list_extreme": 20000,
+    "code_index": 20000,
+    "code_conditional": 20000,
+    "code_divmod": 20000,
+    "code_nested_loop": 20000,
+    "code_while_accumulate": 20000,
+    "impulse": 40000,
+    "ohms_current": 40000,
+    "spring_energy": 40000,
+    "permutations": 40000,
+    "final_velocity": 40000,
+    "code_range_sum": 20000,
+    "code_list_count": 20000,
+    "code_neg_index": 20000,
+    "cns_type_count": 30000,
+    "cns_side_count": 30000,
+    "cns_pair_synapses": 30000
+  },
+  "per_source": {
+    "v89_combined": {
+      "rows": 1156108,
+      "task_rows": 1060000,
+      "language_rows": 96108
+    },
+    "omni_v93": {
+      "rows": 200000,
+      "task_rows": 200000,
+      "language_rows": 0
+    },
+    "code_v93": {
+      "rows": 60000,
+      "task_rows": 60000,
+      "language_rows": 0
+    },
+    "connectome": {
+      "rows": 120000,
+      "task_rows": 90000,
+      "language_rows": 30000
+    },
+    "english_foundations": {
+      "rows": 9983,
+      "task_rows": 0,
+      "language_rows": 9983
+    }
+  },
+  "new_tasks": {
+    "omni": [
+      "impulse",
+      "ohms_current",
+      "spring_energy",
+      "permutations",
+      "final_velocity"
+    ],
+    "code": [
+      "code_range_sum",
+      "code_list_count",
+      "code_neg_index"
+    ],
+    "connectome": [
+      "cns_type_count",
+      "cns_side_count",
+      "cns_pair_synapses"
+    ]
+  },
+  "changes_against_v89": [
+    "5 new omni tasks (impulse, ohms_current, spring_energy, permutations, final_velocity), 40,000 rows each, verified by nexus_solver / science_plan, --natural_phrasings --long_division as v89",
+    "3 new code tasks (code_range_sum, code_list_count, code_neg_index), 20,000 rows each, verified by execution",
+    "3 connectome lookup tasks (cns_type_count, cns_side_count, cns_pair_synapses), 30,000 rows each, plus 30,000 prose rows (domain connectome, no task key), all looked up in the CC-BY male-CNS tables",
+    "9,983 english_foundations rows from datasets/v62/english_math_40k.jsonl as language rows (domain english_foundations, task label kept as `kind`); its basic_math rows are excluded"
+  ],
+  "unchanged_from_v89": [
+    "every row of v89_combined.jsonl is byte-copied: the 31 v89 task labels (1,060,000 rows) and the 96,108 dialogue rows",
+    "the v89 generators are untouched, so the 30-task benchmark fingerprint 3b99a446cd533be9bc5f8ae57d1310b4 reproduces through eval_problem_solving.py --task_set v89"
+  ],
+  "held_out_from_training": "natural_phrasings.HELD_OUT_PER_TASK withholds the last three forms of each omni task -- 36 over the twelve v89 tasks and 15 over the five new ones -- so eval_natural_phrasing.py measures generalisation and not recall. The connectome tasks have no held-out population: their benchmark is recall over the same types and pairs (see NON_CLAIMS in build_connectome_corpus and eval_problem_solving).",
+  "token_budget": {
+    "sequence_length": 128,
+    "benchmark_generation_cap": 96,
+    "note": "response counts exclude EOS; the benchmark's 96-token cap includes it, so response_p95 <= 95 is what fits",
+    "omni": {
+      "impulse": {
+        "response_median": 35,
+        "response_p95": 35,
+        "response_max": 35,
+        "turn_max": 55,
+        "dropped_fraction": 0.0
+      },
+      "ohms_current": {
+        "response_median": 50,
+        "response_p95": 52,
+        "response_max": 52,
+        "turn_max": 74,
+        "dropped_fraction": 0.0
+      },
+      "spring_energy": {
+        "response_median": 55,
+        "response_p95": 57,
+        "response_max": 57,
+        "turn_max": 80,
+        "dropped_fraction": 0.0
+      },
+      "permutations": {
+        "response_median": 32,
+        "response_p95": 40,
+        "response_max": 40,
+        "turn_max": 60,
+        "dropped_fraction": 0.0
+      },
+      "final_velocity": {
+        "response_median": 39,
+        "response_p95": 42,
+        "response_max": 42,
+        "turn_max": 73,
+        "dropped_fraction": 0.0
+      }
+    },
+    "code": {
+      "code_range_sum": {
+        "response_median": 44,
+        "response_p95": 85,
+        "response_max": 94,
+        "turn_max": 118,
+        "dropped_fraction": 0.0
+      },
+      "code_list_count": {
+        "response_median": 27,
+        "response_p95": 28,
+        "response_max": 28,
+        "turn_max": 56,
+        "dropped_fraction": 0.0
+      },
+      "code_neg_index": {
+        "response_median": 30,
+        "response_p95": 41,
+        "response_max": 42,
+        "turn_max": 70,
+        "dropped_fraction": 0.0
+      }
+    },
+    "connectome": {
+      "cns_type_count": {
+        "response_median": 13,
+        "response_p95": 16,
+        "response_max": 18,
+        "turn_max": 44,
+        "dropped_fraction": 0.0
+      },
+      "cns_side_count": {
+        "response_median": 16,
+        "response_p95": 18,
+        "response_max": 22,
+        "turn_max": 48,
+        "dropped_fraction": 0.0
+      },
+      "cns_pair_synapses": {
+        "response_median": 21,
+        "response_p95": 23,
+        "response_max": 27,
+        "turn_max": 58,
+        "dropped_fraction": 0.0
+      },
+      "connectome_language": {
+        "response_median": 23,
+        "response_p95": 59,
+        "response_max": 64,
+        "turn_max": 87,
+        "dropped_fraction": 0.0
+      }
+    }
+  },
+  "repetition": {
+    "omni": {
+      "impulse": {
+        "distinct_prompts": 2999,
+        "repetition": 13.3
+      },
+      "ohms_current": {
+        "distinct_prompts": 1719,
+        "repetition": 23.3
+      },
+      "spring_energy": {
+        "distinct_prompts": 256,
+        "repetition": 156.2
+      },
+      "permutations": {
+        "distinct_prompts": 23,
+        "repetition": 1739.1
+      },
+      "final_velocity": {
+        "distinct_prompts": 10953,
+        "repetition": 3.7
+      }
+    },
+    "code": {
+      "code_range_sum": {
+        "distinct_prompts": 355,
+        "repetition": 56.3,
+        "distinct_capacity": 71
+      },
+      "code_list_count": {
+        "distinct_prompts": 9460,
+        "repetition": 2.1,
+        "distinct_capacity": 4020
+      },
+      "code_neg_index": {
+        "distinct_prompts": 12614,
+        "repetition": 1.6,
+        "distinct_capacity": 3960
+      }
+    },
+    "connectome": {
+      "cns_type_count": {
+        "distinct_prompts": 4983,
+        "distinct_facts": 1000,
+        "repetition": 30.0,
+        "majority_answer_share": 0.1447
+      },
+      "cns_side_count": {
+        "distinct_prompts": 9520,
+        "distinct_facts": 2000,
+        "repetition": 15.0,
+        "majority_answer_share": 0.2028
+      },
+      "cns_pair_synapses": {
+        "distinct_prompts": 9499,
+        "distinct_facts": 2000,
+        "repetition": 15.0,
+        "majority_answer_share": 0.0022
+      }
+    }
+  },
+  "verification": {
+    "omni": {
+      "verified_by": "nexus_solver.solve_problem",
+      "dropped_failing_verification": {}
+    },
+    "code": {
+      "verified_by": "cpython exec in a restricted namespace",
+      "drop_rate": 0.0,
+      "drop_reasons": {}
+    },
+    "connectome": {
+      "verified_by": "lookup in the population built from malecns_types.npz and the side source",
+      "dropped_failing_lookup": {},
+      "population": {
+        "types_path": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v91_malecns\\malecns_types.npz",
+        "types_total": 11751,
+        "types_eligible": 11215,
+        "eligibility": "n_neurons >= 2 and name matches [A-Za-z][A-Za-z0-9_\\-]{0,15}",
+        "max_types": 1000,
+        "population_size": 1000,
+        "smallest_type_in_population": 11,
+        "largest_type_in_population": 3377,
+        "neurons_typed": 164506,
+        "neurons_covered": 124783,
+        "coverage_fraction": 0.7585,
+        "sides": {
+          "source": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v93_malecns\\malecns_sided_types.npz",
+          "kind": "malecns_sided_types.npz (D1 hemisphere build)",
+          "sided_nodes": 22871,
+          "neurons_left": 80786,
+          "neurons_right": 82932
+        },
+        "types_with_zero_on_one_side": 5,
+        "min_pair_weight": 50,
+        "pairs_available": 21143,
+        "max_pairs": 2000,
+        "pairs_kept": 2000,
+        "pair_weight_range": [
+          3731,
+          260568
+        ],
+        "types_with_partner": 926,
+        "types_with_unclear_nt": 21
+      }
+    },
+    "english_foundations": {
+      "verified_by": "none (language rows)",
+      "source": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v62\\english_math_40k.jsonl",
+      "topic_kept": "english_foundations",
+      "rows": 9983,
+      "kinds": {
+        "definition": 565,
+        "grammar_fix": 1859,
+        "message_writing": 779,
+        "proofread": 963,
+        "punctuation_capitalization": 1386,
+        "sentence_construction": 1199,
+        "spelling_fix": 988,
+        "synonym_example": 671,
+        "tone_rewrite": 1573
+      },
+      "excluded_by_topic": {
+        "basic_math": 30017
+      },
+      "relabelling": "task key dropped, kept as `kind`; domain set to english_foundations"
+    }
+  },
+  "vocabulary": {
+    "report": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v93\\v93_vocabulary_report.json",
+    "union_new_token_ids": 657,
+    "cap": 2500,
+    "per_family_new_ids": {
+      "omni_v93": 38,
+      "code_v93": 5,
+      "connectome_tasks": 327,
+      "connectome_language": 385,
+      "english_foundations": 222
+    }
+  },
+  "provenance": {
+    "v89_rows": "byte-copied from C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v89\\v89_combined.jsonl; that file was assembled by output/v87_measurements/build_v89_corpus.py",
+    "dialogue_rows": "the 96,108 `domain: dialogue` rows are the v86 inherited ones, copied byte-identical through v87, v88, v89 and now v93 (v86 took them from v74/v69; origin the v29 pipeline jsonl). docs/V87_TRAINING_READINESS.md records that they have no provenance clearance for expanded use; they are not expanded here",
+    "connectome_rows": "generated from datasets/v91_malecns/malecns_types.npz and datasets/v93_malecns/malecns_sided_types.npz, both derived from the FlyEM male-cns v1.0 flat connectome (CC BY 4.0); attribution in build_connectome_corpus.py",
+    "english_rows": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\datasets\\v62\\english_math_40k.jsonl"
+  },
+  "timings_seconds": {
+    "omni": 0.0,
+    "code": 46.8,
+    "connectome": 14.4,
+    "vocabulary": 15.4,
+    "combine": 10.8
+  },
+  "wall_seconds": 87.7
+}
