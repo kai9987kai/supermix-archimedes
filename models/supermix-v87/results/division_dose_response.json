@@ -1,0 +1,73 @@
+{
+  "schema": "supermix-v87-division-dose-response-v1",
+  "checkpoint": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\output\\v86_corpus\\v86_corpus.pt",
+  "question": "Within a single task, format and wording held fixed, does accuracy fall as the operands of the one undecomposed step grow?",
+  "per_cell": 40,
+  "seconds": 176.7,
+  "cells": {
+    "divisor 1-digit / quotient 1-digit": {
+      "n": 40,
+      "correct": 29,
+      "accuracy": 0.725,
+      "accuracy_95ci": [
+        0.5716,
+        0.8389
+      ],
+      "division_step_true": 0.775
+    },
+    "divisor 1-digit / quotient 2-digit": {
+      "n": 40,
+      "correct": 15,
+      "accuracy": 0.375,
+      "accuracy_95ci": [
+        0.2422,
+        0.5297
+      ],
+      "division_step_true": 0.375
+    },
+    "divisor 1-digit / quotient 3-digit": {
+      "n": 40,
+      "correct": 5,
+      "accuracy": 0.125,
+      "accuracy_95ci": [
+        0.0546,
+        0.2611
+      ],
+      "division_step_true": 0.125
+    },
+    "divisor 2-digit / quotient 1-digit": {
+      "n": 40,
+      "correct": 30,
+      "accuracy": 0.75,
+      "accuracy_95ci": [
+        0.5981,
+        0.8581
+      ],
+      "division_step_true": 0.75
+    },
+    "divisor 2-digit / quotient 2-digit": {
+      "n": 40,
+      "correct": 23,
+      "accuracy": 0.575,
+      "accuracy_95ci": [
+        0.4219,
+        0.7149
+      ],
+      "division_step_true": 0.575
+    },
+    "divisor 2-digit / quotient 3-digit": {
+      "n": 40,
+      "correct": 5,
+      "accuracy": 0.125,
+      "accuracy_95ci": [
+        0.0546,
+        0.2611
+      ],
+      "division_step_true": 0.125
+    }
+  },
+  "non_claims": [
+    "This measures one task on one checkpoint. It does not establish that decomposing the step would raise accuracy; that requires training a corpus that decomposes it.",
+    "The cells are not a random sample of the generator's own distribution, so the cell accuracies do not average to the task's benchmark score."
+  ]
+}

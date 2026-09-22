@@ -1,0 +1,249 @@
+{
+  "schema": "supermix-v87-coverage-audit-v1",
+  "samples_per_side": 4000,
+  "seed": 87,
+  "threshold": 0.02,
+  "tasks": {
+    "acceleration": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 2353,
+      "distinct_benchmark_values": 2328,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "algebra_one_step": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 120,
+      "distinct_benchmark_values": 120,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "arithmetic": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 989,
+      "distinct_benchmark_values": 989,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "arithmetic_series": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 20,
+      "distinct_benchmark_values": 20,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "average": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 95,
+      "distinct_benchmark_values": 95,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_conditional": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 50,
+      "distinct_benchmark_values": 50,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_divmod": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 87,
+      "distinct_benchmark_values": 87,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_index": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 14,
+      "distinct_benchmark_values": 14,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_list_extreme": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 15,
+      "distinct_benchmark_values": 15,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_list_sum": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 15,
+      "distinct_benchmark_values": 15,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_loop_add": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 10,
+      "distinct_benchmark_values": 10,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_loop_subtract": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 98,
+      "distinct_benchmark_values": 98,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_nested_loop": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 10,
+      "distinct_benchmark_values": 10,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "code_while_accumulate": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 72,
+      "distinct_benchmark_values": 72,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "combination": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 58,
+      "distinct_benchmark_values": 58,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "division": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 253,
+      "distinct_benchmark_values": 253,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "electrical_power": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "force": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "kinetic_energy": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 13,
+      "distinct_benchmark_values": 13,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "molarity": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 1050,
+      "distinct_benchmark_values": 1015,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "momentum": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "multiplication": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "percent": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 1721,
+      "distinct_benchmark_values": 1721,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "power": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 3048,
+      "distinct_benchmark_values": 2986,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "sequence": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 74,
+      "distinct_benchmark_values": 74,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "two_step": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 542,
+      "distinct_benchmark_values": 541,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "voltage": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "wave_speed": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "word_problem": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 95,
+      "distinct_benchmark_values": 95,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    },
+    "work": {
+      "corpus_prompts": 4000,
+      "benchmark_prompts": 4000,
+      "distinct_corpus_values": 97,
+      "distinct_benchmark_values": 97,
+      "asked_but_never_taught": [],
+      "taught_but_never_asked": []
+    }
+  },
+  "not_compared": []
+}

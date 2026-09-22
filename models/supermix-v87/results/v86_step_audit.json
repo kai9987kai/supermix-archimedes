@@ -1,0 +1,548 @@
+{
+  "schema": "supermix-v87-step-audit-v1",
+  "replies": "output/v87_measurements/v86_replies.jsonl",
+  "tasks": {
+    "arithmetic": {
+      "n": 30,
+      "correct": 19,
+      "verdicts": {
+        "unwritten_step": 19,
+        "arithmetic_slip": 7,
+        "unsupported": 4
+      },
+      "written_steps": 60,
+      "false_steps": 7,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 4,
+      "carry_free": {
+        "n": 17,
+        "correct": 17,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "wrong": 11,
+      "wrong_at_a_written_step": 7,
+      "accuracy": 0.6333,
+      "decorative_working_rate": 0.0
+    },
+    "percent": {
+      "n": 30,
+      "correct": 16,
+      "verdicts": {
+        "arithmetic_slip": 5,
+        "unwritten_step": 4,
+        "clean": 17,
+        "unsupported": 4
+      },
+      "written_steps": 71,
+      "false_steps": 5,
+      "correct_with_false_step": 1,
+      "wrong_with_sound_steps": 10,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "wrong": 14,
+      "wrong_at_a_written_step": 4,
+      "accuracy": 0.5333,
+      "decorative_working_rate": 0.0625
+    },
+    "average": {
+      "n": 30,
+      "correct": 1,
+      "verdicts": {
+        "arithmetic_slip": 13,
+        "clean": 17
+      },
+      "written_steps": 30,
+      "false_steps": 13,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 16,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 30,
+        "correct": 1,
+        "accuracy": 0.0333
+      },
+      "wrong": 29,
+      "wrong_at_a_written_step": 13,
+      "accuracy": 0.0333,
+      "decorative_working_rate": 0.0
+    },
+    "algebra_one_step": {
+      "n": 30,
+      "correct": 13,
+      "verdicts": {
+        "arithmetic_slip": 17,
+        "clean": 13
+      },
+      "written_steps": 30,
+      "false_steps": 17,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 17,
+      "wrong_at_a_written_step": 17,
+      "accuracy": 0.4333,
+      "decorative_working_rate": 0.0
+    },
+    "word_problem": {
+      "n": 30,
+      "correct": 21,
+      "verdicts": {
+        "clean": 21,
+        "arithmetic_slip": 9
+      },
+      "written_steps": 60,
+      "false_steps": 9,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 9,
+      "wrong_at_a_written_step": 9,
+      "accuracy": 0.7,
+      "decorative_working_rate": 0.0
+    },
+    "multiplication": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 21,
+        "correct": 21,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 9,
+        "correct": 9,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "division": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 29,
+        "arithmetic_slip": 1
+      },
+      "written_steps": 60,
+      "false_steps": 1,
+      "correct_with_false_step": 1,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 29,
+        "correct": 29,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0333
+    },
+    "sequence": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "clean": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "two_step": {
+      "n": 30,
+      "correct": 9,
+      "verdicts": {
+        "arithmetic_slip": 21,
+        "clean": 9
+      },
+      "written_steps": 90,
+      "false_steps": 22,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 21,
+      "wrong_at_a_written_step": 21,
+      "accuracy": 0.3,
+      "decorative_working_rate": 0.0
+    },
+    "force": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 21,
+        "correct": 21,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 9,
+        "correct": 9,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "acceleration": {
+      "n": 30,
+      "correct": 22,
+      "verdicts": {
+        "arithmetic_slip": 8,
+        "clean": 22
+      },
+      "written_steps": 30,
+      "false_steps": 8,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 8,
+      "wrong_at_a_written_step": 8,
+      "accuracy": 0.7333,
+      "decorative_working_rate": 0.0
+    },
+    "momentum": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "kinetic_energy": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 20,
+        "clean": 10
+      },
+      "written_steps": 110,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 17,
+        "correct": 17,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "work": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 24,
+        "correct": 24,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "power": {
+      "n": 30,
+      "correct": 12,
+      "verdicts": {
+        "clean": 12,
+        "arithmetic_slip": 18
+      },
+      "written_steps": 30,
+      "false_steps": 18,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 18,
+      "wrong_at_a_written_step": 18,
+      "accuracy": 0.4,
+      "decorative_working_rate": 0.0
+    },
+    "voltage": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 25,
+        "correct": 25,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "electrical_power": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 22,
+        "correct": 22,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "wave_speed": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 30
+      },
+      "written_steps": 60,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 22,
+        "correct": 22,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    },
+    "molarity": {
+      "n": 30,
+      "correct": 20,
+      "verdicts": {
+        "clean": 20,
+        "arithmetic_slip": 10
+      },
+      "written_steps": 30,
+      "false_steps": 10,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 10,
+      "wrong_at_a_written_step": 10,
+      "accuracy": 0.6667,
+      "decorative_working_rate": 0.0
+    },
+    "combination": {
+      "n": 30,
+      "correct": 28,
+      "verdicts": {
+        "clean": 23,
+        "unwritten_step": 5,
+        "arithmetic_slip": 2
+      },
+      "written_steps": 118,
+      "false_steps": 6,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "wrong": 2,
+      "wrong_at_a_written_step": 2,
+      "accuracy": 0.9333,
+      "decorative_working_rate": 0.0
+    },
+    "arithmetic_series": {
+      "n": 30,
+      "correct": 30,
+      "verdicts": {
+        "unwritten_step": 29,
+        "clean": 1
+      },
+      "written_steps": 209,
+      "false_steps": 0,
+      "correct_with_false_step": 0,
+      "wrong_with_sound_steps": 0,
+      "carry_free": {
+        "n": 27,
+        "correct": 27,
+        "accuracy": 1.0
+      },
+      "needs_carry": {
+        "n": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "wrong": 0,
+      "wrong_at_a_written_step": 0,
+      "accuracy": 1.0,
+      "decorative_working_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "supermix-v87-significant-digits-v1",
+  "checkpoint": "C:\\Users\\kai99\\Desktop\\New folder (9)\\Supermix\\output\\v86_corpus\\v86_corpus.pt",
+  "question": "Holding quotient width at three digits, does accuracy depend on how many of those digits had to be determined?",
+  "decides": "Whether splitting the science divisions by place value can help. It can only help if a one-significant-digit quotient is easier than a three-significant-digit one of the same width.",
+  "seconds": 171.3,
+  "cells": {
+    "1-digit": {
+      "n": 40,
+      "correct": 33,
+      "accuracy": 0.825,
+      "accuracy_95ci": [
+        0.6805,
+        0.9125
+      ],
+      "division_step_true": 0.825
+    },
+    "2-digit round": {
+      "n": 40,
+      "correct": 30,
+      "accuracy": 0.75,
+      "accuracy_95ci": [
+        0.5981,
+        0.8581
+      ],
+      "division_step_true": 0.75
+    },
+    "3-digit round": {
+      "n": 40,
+      "correct": 21,
+      "accuracy": 0.525,
+      "accuracy_95ci": [
+        0.375,
+        0.6706
+      ],
+      "division_step_true": 0.5
+    },
+    "3-digit two-place": {
+      "n": 40,
+      "correct": 11,
+      "accuracy": 0.275,
+      "accuracy_95ci": [
+        0.1611,
+        0.4284
+      ],
+      "division_step_true": 0.275
+    },
+    "3-digit full": {
+      "n": 40,
+      "correct": 3,
+      "accuracy": 0.075,
+      "accuracy_95ci": [
+        0.0258,
+        0.1986
+      ],
+      "division_step_true": 0.075
+    }
+  },
+  "non_claims": [
+    "One task, one checkpoint. A gradient here says the rewrite is worth trying, not that it will succeed.",
+    "The divisor is fixed to two digits, so this says nothing about divisor width -- the dose-response covers that."
+  ]
+}
