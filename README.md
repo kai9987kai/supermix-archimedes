@@ -14,6 +14,49 @@ The complete final model is available on Hugging Face:
 
 This GitHub repository contains the architecture, grafting pipeline, Fly Lab integration, training code, evaluation utilities, receipts, and supporting corpora. The Hugging Face repository is the canonical location for the downloadable final trained model.
 
+
+## Unified Inference Lab
+
+The repository now includes `archimedes_lab.py`, a local Gradio interface that exposes the output paths already present in the final Archimedes checkpoint:
+
+- **Text / chat** with optional FlyCore and OmniCore grafts active during cached generation.
+- **Native image generation** through the preserved v38 64×64 RGB decoder.
+- **v48 classification** with all 10 classifier logits/probabilities.
+- **22-brain FlyCore control** with the 14 sensory channels, four-way consensus, and per-role descending votes.
+- **Diagnostics** for checkpoint schema, parameter count, vocabulary, training receipt data, and learned gate magnitudes.
+
+Install the UI dependencies:
+
+```bash
+python -m pip install -r requirements-ui.txt
+```
+
+Launch it:
+
+```bash
+python archimedes_lab.py
+```
+
+By default the app first looks for a local trained `supermix_archimedes.pt`. If one is not available it automatically looks in:
+
+```text
+Kai9987kai/archimedes-final-model
+```
+
+You can also select a checkpoint explicitly:
+
+```bash
+python archimedes_lab.py --checkpoint /path/to/supermix_archimedes.pt
+```
+
+CUDA is selected automatically when available. To force CPU execution:
+
+```bash
+python archimedes_lab.py --device cpu
+```
+
+The image tab reports the **true neural output as 64×64**; its 256×256/512×512 display modes are pixel enlargement only and do not claim higher native model resolution. The v48 classifier currently has no semantic class-name mapping stored with the checkpoint, so the interface intentionally reports neutral labels `class_0` through `class_9`.
+
 ## Source Systems
 
 Archimedes combines:
